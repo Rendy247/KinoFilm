@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+img{
+    display: block;
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+}
+.Search {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  background-color: #ffffff;
+}
+.Kino{
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  background-color: #ffffff;
+  float: left;
+}
+.name{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  background-color: #ffffff;
+  float: left;
+  font-size: 40px;
+  margin-left: 10px;
+  line-height: 60px;
+  margin-right: 10px;
+}
+.link{
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 406;
+  font-style: normal;
+  color: #9c9aa1;
+  background-color: #fff;
+  font-size: 30px;
+  line-height: 56px;
+  margin-right: 5px;
+  margin-right: 5px;
+  padding-right: 8px;
+  padding-left: 5px;
+  float:left;
+  text-decoration: none;
+}
+.link:first-of-type{
+  border-left: #9c9aa1 solid 2px;
+}
+.link{
+  border-right: #9c9aa1 solid 2px;
+}
+.link:hover{
+  color: #844af0;
+}
+input{
+  float: right;
+  height: 50px;
+  width: 350px;
+  background-color: white;
+  position: relative;
+  top: 2px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4j83Bz2imfkBaciPL9laeLvUVeBjGf_qsg&s');
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 40px;
+}
+main{
+  display: block;
+  background-color: #e9e8eb;
+  width: 60%;
+  height: 3000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.put{
+  border: 2px solid #7d7d7d;
+  display: block;
+  width: 1139px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  float: left;
+  background-color: #b5b4b3;
+}
+.LinkKino{
+  margin-right: 7px;
+  color: black;
+  text-decoration: none;
+  background-color: #b5b4b3;
+  float: left;
+}
+.LinkKino:hover{
+  color: #844af0;
+}
+.NameFilm{
+  background-color: #b5b4b3;
+  float: left;
+}
+.IkonkaFilma{
+  display: block;
+  background-color: #e9e8eb;
+  height: 360px;
+  width: 200px;
+  margin: 20px;
+  float: left;
+}
+.imgIkonk{
+  background-color: #e9e8eb;
+  display: block;
+  float:left;
+  height: 300px;
+  width: 200px;
+  border: 5px solid #05fbff;
+}
+.textIkonki{
+  font-weight: bolder;
+  text-align: center;
+  color:#058073;
+  background-color: #e9e8eb;
+  float: left;
+  font-size: 20px;
+  width: 200px;
+  cursor: pointer;
+}
+.TrailerVideo{
+  height: 260px;
+  width: 500px;
+  border: 5px solid #05fbff;
+}
+#TrailerName{
+  margin-top: 10px;
+  background-color: #e9e8eb;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+  color:#058073;
+}
+.TrailerDiv{
+  float: right;
+  display: block;
+  height:350px;
+  width: 800px;
+  background-color:#e9e8eb;
+  text-align: center;
+}
+.NameIstok{
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  width: 124vh;
+  background-color: #e9e8eb;
+  color: #058073;
+  margin-bottom: 10px;
+}
+.FilmVideo{
+  background-color: #e9e8eb;
+}
+.KinoVideoFilm{
+  width: 1143px;
+  height: 483px;
+  background-color: black;
+}
+.Knopki{
+  background-color: black;
+  position: fixed;
+  top: 590px;
+  right: 20px;
+  height: 360px;
+  width: 100px;
+}
+.Knopka{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100px;
+  background: white;
+}
+.Knopka:hover{
+  background-color: #bfbfbf;
+}
