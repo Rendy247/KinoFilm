@@ -13,24 +13,25 @@ img{
 }
 .Search {
   display: block;
-  width: 75%;
+  width: 73%;
   margin-left: auto;
   margin-right: auto;
-  height: 60px;
+  height: 7vh;
   background-color: #ffffff;
 }
 .main{
   display: block;
   background-color: #e9e8eb;
-  width: 75%;
+  width: 73%;
   height: 200vh;
   margin-left: auto;
   margin-right: auto;
 }
 .Kino{
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 4%;
+  height: 6vh ;
+  margin: 4px;
   float: left;
   background-color: #ffffff;
   float: left;
@@ -42,29 +43,25 @@ img{
   font-style: normal;
   background-color: #ffffff;
   float: left;
-  font-size: 40px;
-  margin-left: 10px;
+  font-size: 5vh;
   line-height: 60px;
   margin-right: 10px;
 }
 .link{
   font-family: "Smooch Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 406;
   font-style: normal;
   color: #9c9aa1;
   background-color: #fff;
   font-size: 30px;
-  line-height: 56px;
-  margin-right: 5px;
-  margin-right: 5px;
-  padding-right: 8px;
-  padding-left: 5px;
+  line-height: 7vh;
+  text-align: center;
   float:left;
   text-decoration: none;
+  width: 15%;
+  height: 7vh;
 }
 .link:first-of-type{
-  border-left: #9c9aa1 solid 2px;
+border-left: #9c9aa1 solid 2px;
 }
 .link{
 border-right: #9c9aa1 solid 2px;
@@ -75,7 +72,7 @@ border-right: #9c9aa1 solid 2px;
 input{
   float: right;
   height: 5vh;
-  width: 40vh;
+  width: 30%;
   background-color: white;
   position: relative;
   top: 2px;
@@ -88,10 +85,10 @@ input{
 .IkonkaFilma{
   display: block;
   background-color: #e9e8eb;
-  height: 360px;
-  width: 200px;
-  margin-left: 30px;
-  padding: 20px;
+  height: 40vh;
+  width: 15%;
+  margin-left: 3vh;
+  padding: 2vh;
   float: left;
 }
 
@@ -99,8 +96,8 @@ input{
   background-color: #e9e8eb;
   display: block;
   float:left;
-  height: 300px;
-  width: 200px;
+  height: 33vh;
+  width: 95%;
   border: 5px solid #05fbff;
 }
 .textIkonki{
@@ -109,19 +106,19 @@ input{
   color:#058073;
   background-color: #e9e8eb;
   float: left;
-  font-size: 20px;
-  width: 200px;
+  font-size: 150%;
+
   cursor: pointer;
 }
 .LinkIkonka{
   background-color: #bdfbfc;
   opacity: 0  ;
-  height: 310px;
-  width: 210px;
+  height: 34vh;
+  width: 99%;
 }
 .ImageLink{
   position: relative;
-  top: -220px;
+  bottom: 75%;
   background-color: #bdfbfc;
   opacity: 0.5;
 }
