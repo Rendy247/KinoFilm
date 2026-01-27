@@ -10,14 +10,51 @@
 }
 .DivSearch{
   display: flex;
+  flex-wrap: wrap;
   width: 70vw;
   height: 7vh;
   margin-left: 15vw;
   margin-right: 15vw;
-  background-color: red;
 }
 .ImageKino{
-  height: 100px;
+  width: 3vw;
+  height: 7vh;
+}
+.DivKinofilm{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.DivPoiska{
+flex-grow: 1;
+background-color: white;
+}
+.link{
+  display: block;
+  float: left;
+  font-family: "Smooch Sans", sans-serif;
+  font-style: normal;
+  color: #9c9aa1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.3rem;
+  border-left: 0.2vw solid #9c9aa1;
+  margin-left: 0.3vw;
+  height: 7vh;
+  padding: 2px;
+  line-height: 7vh;
+}
+.FormInput{
+  margin-left: 10px;
+  height: 7vh;
+  float: left;
+  display: block;
+  width: 23.13vw;
+}
+.Poisk{
+  height: 7vh;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .DivSearch{
@@ -25,5 +62,21 @@
     height: 10vh;
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+  .DivPoiska{
+    display: flex;
+  }
+  .ImageKino{
+    width: 20vw;
+    height: 10vh;
+  }
+  .link{
+  font-size: 1.5vh;
+  }
+  .FormInput{
+    width: 0;
+  }
+  .FormInput{
+    flex-grow: 1;
   }
 }

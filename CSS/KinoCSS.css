@@ -54,7 +54,7 @@ img{
   text-decoration: none;
   width: 20%;
 }
-.link:first-of-type{
+#lastlink{
 border-left: #9c9aa1 solid 2px;
 }
 .link{
@@ -95,7 +95,6 @@ input:focus{
   width: 15%;
   margin-left: 3%;
   padding: 2%;
-  margin-left: 5%;
 }
 .imgIkonk{
   background-color: #e9e8eb;
