@@ -12,53 +12,47 @@ img{
   margin-right: auto;
 }
 .Search {
-  display: block;
-  width: 73%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 7vh;
+  display: flex;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  height: 8vh;
   background-color: #ffffff;
-}
-.main{
-  display: block;
-  background-color: #e9e8eb;
-  width: 73%;
-  height: 200vh;
-  margin-left: auto;
-  margin-right: auto;
+  flex-wrap: wrap;
 }
 .Kino{
-  display: block;
-  width: 4%;
-  height: 6vh ;
-  margin: 4px;
-  float: left;
+  height: 80%;
+  width: 7vh;
+  margin: 0.5vh;
   background-color: #ffffff;
-  float: left;
 }
 .name{
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
-  font-style: normal;
   background-color: #ffffff;
-  float: left;
-  font-size: 5vh;
-  line-height: 60px;
-  margin-right: 10px;
+  font-size: 6vh;
+  margin-right: 1%;
+  max-width: 60%;
+}
+@media  (max-width: 1080px){
+  .name{
+    font-size: 6vh; }
+}
+.PlachkaSearch{
+  display: flex;
+  flex-grow: 1;
 }
 .link{
   font-family: "Smooch Sans", sans-serif;
   font-style: normal;
   color: #9c9aa1;
   background-color: #fff;
-  font-size: 30px;
-  line-height: 7vh;
+  font-size: clamp(160%,2vw, 2vw);
+  line-height: 8vh;
   text-align: center;
-  float:left;
   text-decoration: none;
-  width: 15%;
-  height: 7vh;
+  width: 20%;
 }
 .link:first-of-type{
 border-left: #9c9aa1 solid 2px;
@@ -69,34 +63,44 @@ border-right: #9c9aa1 solid 2px;
 .link:hover{
   color: #844af0;
 }
+.form{
+  display: flex;
+  flex-grow: 1;
+}
 input{
-  float: right;
-  height: 5vh;
-  width: 30%;
+  flex-grow: 1;
   background-color: white;
-  position: relative;
-  top: 2px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4j83Bz2imfkBaciPL9laeLvUVeBjGf_qsg&s');
-  background-position: 10px center;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/67/67918.png');
+  background-position: 98% center;
   background-repeat: no-repeat;
-  background-size: 20px;
-  padding-left: 40px;
+  background-size: 2vw;
+  font-size: clamp(160%,2vw, 2vw);
+  outline: 2px solid #05fbff;
+}
+input:focus{
+  outline: 5px solid #05fbff;
+}
+.main{
+  background-color: #e9e8eb;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .IkonkaFilma{
   display: block;
   background-color: #e9e8eb;
-  height: 40vh;
+  height: 18vw;
   width: 15%;
-  margin-left: 3vh;
-  padding: 2vh;
-  float: left;
+  margin-left: 3%;
+  padding: 2%;
+  margin-left: 5%;
 }
-
 .imgIkonk{
   background-color: #e9e8eb;
   display: block;
-  float:left;
-  height: 33vh;
+  height: 15vw;
   width: 95%;
   border: 5px solid #05fbff;
 }
@@ -105,14 +109,12 @@ input{
   text-align: center;
   color:#058073;
   background-color: #e9e8eb;
-  float: left;
   font-size: 150%;
-
   cursor: pointer;
 }
 .LinkIkonka{
   background-color: #bdfbfc;
-  opacity: 0  ;
+  opacity: 0;
   height: 34vh;
   width: 99%;
 }
@@ -126,4 +128,28 @@ input{
   background-color: #bdfbfc;
   opacity: 0.5;
   cursor: pointer;
+}
+@media (max-width: 1080px) {
+  .IkonkaFilma{
+    display: block;
+    background-color: #e9e8eb;
+    height: 500px;
+    width: 350px;
+    margin-top: 25%;
+  }
+  .imgIkonk{
+    background-color: #e9e8eb;
+    display: block;
+    height: 600px;
+    width: 350px;
+    border: 10px solid #05fbff;
+  }
+  .textIkonki{
+    font-weight: bolder;
+    text-align: center;
+    color:#058073;
+    background-color: #e9e8eb;
+    font-size: 40px;
+    cursor: pointer;
+  }
 }
