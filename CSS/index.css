@@ -155,9 +155,6 @@ input::placeholder {
     margin-right: 10px;
   }
   .NameFilm{
-  font-size: 100%;
-  }
-  .NameFilm{
     font-size: 25px;
   }
 }
@@ -167,5 +164,8 @@ input::placeholder {
     width: 150px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .NameFilm{
+  font-size: 100%;
   }
 }
