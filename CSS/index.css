@@ -161,3 +161,11 @@ input::placeholder {
     font-size: 25px;
   }
 }
+@media (max-height: 450px) {
+  .DivIkanka{
+    height: 300px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
