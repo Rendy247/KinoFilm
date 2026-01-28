@@ -1,82 +1,97 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: black;
 }
 #ImgKinoFilm{
   width: 30vw;
   margin-left: 35vw;
   margin-right: 35vw;
+  background-color: white;
 }
 .DivSearch{
+  background-color: white;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   width: 70vw;
   height: 7vh;
   margin-left: 15vw;
   margin-right: 15vw;
 }
-.ImageKino{
-  width: 3vw;
-  height: 7vh;
-}
-.DivKinofilm{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-size: 4rem;
-}
-.DivPoiska{
-flex-grow: 1;
-background-color: white;
-}
 .link{
-  display: block;
-  float: left;
+  margin-left: 3px;
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
   font-family: "Smooch Sans", sans-serif;
   font-style: normal;
   color: #9c9aa1;
-  text-align: center;
   text-decoration: none;
-  font-size: 2.3rem;
-  border-left: 0.2vw solid #9c9aa1;
-  margin-left: 0.3vw;
-  height: 7vh;
-  padding: 2px;
-  line-height: 7vh;
+  font-size: 40px;
+  height:100%;
+  border-right: 2px solid #9c9aa1;
 }
 .FormInput{
-  margin-left: 10px;
-  height: 7vh;
-  float: left;
-  display: block;
-  width: 23.13vw;
+  min-width: 0;
+  max-width: 30%;
+  min-width: 10%;
+  background-color: white;
+  height: 100%;
+  flex: 0 0 30%;
 }
 .Poisk{
-  height: 7vh;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid white;
+  height: 100%;
   width: 100%;
+}
+input::placeholder {
+  font-size: 30px;
 }
 @media (max-width: 768px) {
   .DivSearch{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     width: 90vw;
-    height: 10vh;
+    height: 7vh;
     margin-left: 5vw;
     margin-right: 5vw;
   }
-  .DivPoiska{
-    display: flex;
-  }
-  .ImageKino{
-    width: 20vw;
-    height: 10vh;
+  .FormInput{
+    background-color: white;
+    height: 7vh;
+    flex: 0 0 30%;
   }
   .link{
-  font-size: 1.5vh;
+    font-size: 9px;
   }
-  .FormInput{
-    width: 0;
+  input::placeholder {
+    font-size: 10px;
   }
-  .FormInput{
-    flex-grow: 1;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  input::placeholder {
+    font-size: 20px;
+  }
+  .DivSearch{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90vw;
+    height: 7vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .link{
+    font-size: 25px;
   }
 }
