@@ -18,6 +18,7 @@
   height: 7vh;
   margin-left: 15vw;
   margin-right: 15vw;
+  border-bottom: 2px solid #9c9aa1;
 }
 .link{
   margin-left: 3px;
@@ -56,6 +57,38 @@
 input::placeholder {
   font-size: 30px;
 }
+.DivMain{
+  background-color: white;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-bottom: 15px solid white;
+}
+.DivIkanka{
+  margin-top: 2vh;
+  width: 17%;
+  height: 45vh;
+  background-color: white;
+}
+.ImgIkonki{
+  border: 5px solid #05fbff;
+  width: 100%;
+  height: 80%;
+}
+.NameFilm{
+  font-weight: bolder;
+  text-align: center;
+  color:#058073;
+  background-color: #e9e8eb;
+  font-size: 150%;
+  cursor: pointer;
+  background-color: white;
+  width: 100%;
+  height: 20%;
+}
 @media (max-width: 768px) {
   .DivSearch{
     display: flex;
@@ -77,8 +110,25 @@ input::placeholder {
   input::placeholder {
     font-size: 10px;
   }
+  .DivMain{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .DivIkanka{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+  }
+  .DivIkanka{
+    height: 30vh;
+    width: 40%;
+  }
+  .NameFilm{
+  font-size: 100%;
+  }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1180px) {
   input::placeholder {
     font-size: 20px;
   }
@@ -92,6 +142,19 @@ input::placeholder {
     margin-right: 5vw;
   }
   .link{
-    font-size: 25px;
+    font-size: 22px;
+  }
+  .DivMain{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .DivIkanka{
+    height: 23vh;
+    width: 20%;
+    margin-left: 10px;
+  }
+  .NameFilm{
+  font-size: 100%;
   }
 }
