@@ -35,7 +35,7 @@
   font-style: normal;
   color: #9c9aa1;
   text-decoration: none;
-  font-size: 40px;
+  font-size:25px;
   height:100%;
   border-right: 2px solid #9c9aa1;
 }
@@ -53,6 +53,10 @@
   border: 1px solid white;
   height: 100%;
   width: 100%;
+  font-size: 20px;
+}
+.Poisk::placeholder {
+  font-size: 20px;
 }
 input::placeholder {
   font-size: 30px;
@@ -68,6 +72,7 @@ input::placeholder {
   border-bottom: 15px solid white;
 }
 .DivIkanka{
+  position: relative;
   margin-top: 2vh;
   width: 17%;
   height: 45vh;
@@ -77,17 +82,40 @@ input::placeholder {
   border: 5px solid #05fbff;
   width: 100%;
   height: 80%;
+  object-fit: cover;
 }
 .NameFilm{
   font-weight: bolder;
   text-align: center;
   color:#058073;
   background-color: #e9e8eb;
-  font-size: 150%;
+  font-size: 100%;
   cursor: pointer;
   background-color: white;
   width: 100%;
   height: 20%;
+}
+.Play{
+  position: absolute;
+  top:0; left:0; right:0; bottom:0;
+  display: flex;
+  background-color: #bdfbfc;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  height: 82%;
+  width: 105%;
+}
+.Play:hover, .ImgIkonki:hover{
+  opacity: 0.5;
+}
+.ImageLink{
+  top: 130px;
+  right: 90px;
+  opacity: 0.5;
+  background-color: #bdfbfc;
+  width: 60px;
+  height: 60px;
 }
 @media (max-width: 768px) {
   .DivSearch{
@@ -122,9 +150,11 @@ input::placeholder {
     width: 120px;
     height: 240px;
   }
-
   .NameFilm{
   font-size: 80%;
+  }
+  .Poisk::placeholder {
+    font-size: 10px;
   }
 }
 @media (min-width: 768px) and (max-width: 1180px) {
@@ -156,6 +186,9 @@ input::placeholder {
   }
   .NameFilm{
     font-size: 25px;
+  }
+  .Poisk::placeholder {
+    font-size: 20px;
   }
 }
 @media (max-height: 450px) {
