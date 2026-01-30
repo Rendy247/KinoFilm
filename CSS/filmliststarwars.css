@@ -3,195 +3,118 @@
   padding: 0;
   background-color: black;
 }
-img{
-  display: block;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+#ImgKinoFilm{
+  width: 30vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  background-color: white;
 }
-.Search {
-  display: block;
-  width: 73%;
-  margin-left: auto;
-  margin-right: auto;
+.DivSearch{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 70vw;
   height: 7vh;
-  background-color: #ffffff;
-}
-.main{
-  display: block;
-  background-color: #e9e8eb;
-  width: 73%;
-  height: 200vh;
-  margin-left: auto;
-  margin-right: auto;
-}
-.Kino{
-  display: block;
-  width: 4%;
-  height: 6vh ;
-  margin: 4px;
-  float: left;
-  background-color: #ffffff;
-  float: left;
-}
-.name{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  background-color: #ffffff;
-  float: left;
-  font-size: 5vh;
-  line-height: 60px;
-  margin-right: 10px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  border-bottom: 2px solid #9c9aa1;
 }
 .link{
+  margin-left: 3px;
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
   font-family: "Smooch Sans", sans-serif;
   font-style: normal;
   color: #9c9aa1;
-  background-color: #fff;
-  font-size: 30px;
-  line-height: 7vh;
-  text-align: center;
-  float:left;
   text-decoration: none;
-  width: 15%;
-  height: 7vh;
+  font-size:25px;
+  height:100%;
+  border-right: 2px solid #9c9aa1;
 }
-.link:first-of-type{
-border-left: #9c9aa1 solid 2px;
-}
-.link{
-border-right: #9c9aa1 solid 2px;
-}
-.link:hover{
-  color: #844af0;
-}
-input{
-  float: right;
-  height: 5vh;
-  width: 30%;
+.FormInput{
+  min-width: 0;
+  max-width: 30%;
+  min-width: 10%;
   background-color: white;
-  position: relative;
-  top: 2px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4j83Bz2imfkBaciPL9laeLvUVeBjGf_qsg&s');
-  background-position: 10px center;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  padding-left: 40px;
+  height: 100%;
+  flex: 0 0 30%;
 }
-main{
-  display: block;
-  background-color: #e9e8eb;
-  width: 73%;
-  height: 400vh;
-  margin-left: auto;
-  margin-right: auto;
-}
-.put{
-  border-top: 2px solid #7d7d7d;
-  border-bottom: 2px solid #7d7d7d;
-  display: block;
+.Poisk{
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid white;
+  height: 100%;
   width: 100%;
-  height: 4vh;
-  line-height: 30px;
   font-size: 20px;
-  float: left;
-  background-color: #b5b4b3;
 }
-.LinkKino{
-  margin-right: 7px;
-  color: black;
-  text-decoration: none;
-  background-color: #b5b4b3;
-  float: left;
-}
-.LinkKino:hover{
-  color: #844af0;
-}
-.NameFilm{
-  background-color: #b5b4b3;
-  float: left;
-}
-.IkonkaFilma{
-  display: block;
-  background-color: #e9e8eb;
-  height: 360px;
-  width: 200px;
-  margin: 20px;
-  float: left;
-}
-.imgIkonk{
-  background-color: #e9e8eb;
-  display: block;
-  float:left;
-  height: 300px;
-  width: 200px;
-  border: 5px solid #05fbff;
-}
-.textIkonki{
-  font-weight: bolder;
-  text-align: center;
-  color:#058073;
-  background-color: #e9e8eb;
-  float: left;
+.Poisk::placeholder {
   font-size: 20px;
-  width: 200px;
-  cursor: pointer;
 }
-.TrailerVideo{
-  height: 260px;
-  width: 500px;
-  border: 5px solid #05fbff;
-}
-#TrailerName{
-  margin-top: 10px;
-  background-color: #e9e8eb;
+input::placeholder {
   font-size: 30px;
-  text-align: center;
-  margin-bottom: 5px;
-  color:#058073;
 }
-.TrailerDiv{
-  float: right;
-  display: block;
-  height:350px;
-  width: 800px;
-  background-color:#e9e8eb;
-  text-align: center;
+.DivMain{
+  background-color: white;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-bottom: 15px solid white;
 }
-.NameIstok{
-  font-size: 30px;
-  text-align: center;
-  float: left;
-  width: 124vh;
-  background-color: #e9e8eb;
-  color: #058073;
-  margin-bottom: 10px;
-}
-.FilmVideo{
-  background-color: #e9e8eb;
-}
-.KinoVideoFilm{
-  width: 1143px;
-  height: 483px;
-  background-color: black;
-}
-.Knopki{
-  background-color: black;
-  position: fixed;
-  top: 590px;
-  right: 20px;
-  height: 360px;
-  width: 100px;
-}
-.Knopka{
-  border-radius: 10px;
-  margin-bottom: 10px;
-  height: 100px;
-  width: 100px;
-  background: white;
-}
-.Knopka:hover{
-  background-color: #bfbfbf;
-}
+@media (max-width: 768px) {
+  .DivSearch{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90vw;
+    height: 7vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .FormInput{
+    background-color: white;
+    height: 7vh;
+    flex: 0 0 30%;
+  }
+  .link{
+    font-size: 9px;
+  }
+  input::placeholder {
+    font-size: 10px;
+  }
+  .DivMain{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  @media (min-width: 768px) and (max-width: 1180px) {
+    input::placeholder {
+      font-size: 20px;
+    }
+    .DivSearch{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      width: 90vw;
+      height: 7vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    .link{
+      font-size: 22px;
+    }
+    .DivMain{
+      width: 90vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }

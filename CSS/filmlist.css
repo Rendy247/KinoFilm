@@ -1,87 +1,201 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
   background-color: black;
 }
-img{
-    display: block;
-      width: 30%;
-      margin-left: auto;
-      margin-right: auto;
+#ImgKinoFilm{
+  width: 30vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  background-color: white;
 }
-.Search {
-  display: block;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 60px;
-  background-color: #ffffff;
-}
-.Kino{
-  display: block;
-  width: 60px;
-  height: 60px;
-  float: left;
-  background-color: #ffffff;
-  float: left;
-}
-.name{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  background-color: #ffffff;
-  float: left;
-  font-size: 40px;
-  margin-left: 10px;
-  line-height: 60px;
-  margin-right: 10px;
+.DivSearch{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 70vw;
+  height: 7vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  border-bottom: 2px solid #9c9aa1;
 }
 .link{
+  margin-left: 3px;
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
   font-family: "Smooch Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 406;
   font-style: normal;
   color: #9c9aa1;
-  background-color: #fff;
-  font-size: 30px;
-  line-height: 56px;
-  margin-right: 5px;
-  margin-right: 5px;
-  padding-right: 8px;
-  padding-left: 5px;
-  float:left;
   text-decoration: none;
+  font-size:25px;
+  height:100%;
+  border-right: 2px solid #9c9aa1;
 }
-.link:first-of-type{
-  border-left: #9c9aa1 solid 2px;
-}
-.link{
-border-right: #9c9aa1 solid 2px;
-}
-.link:hover{
-  color: #844af0;
-}
-input{
-  float: right;
-  height: 50px;
-  width: 350px;
+.FormInput{
+  min-width: 0;
+  max-width: 30%;
+  min-width: 10%;
   background-color: white;
-  position: relative;
-  top: 2px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4j83Bz2imfkBaciPL9laeLvUVeBjGf_qsg&s');
-  background-position: 10px center;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  padding-left: 40px;
+  height: 100%;
+  flex: 0 0 30%;
 }
-main{
-  display: block;
-  background-color: #e9e8eb;
-  width: 60%;
-  height: 2000px;
-  margin-left: auto;
-  margin-right: auto;
+.Poisk{
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+.Poisk::placeholder {
+  font-size: 20px;
+}
+input::placeholder {
+  font-size: 30px;
+}
+.DivMain{
+  background-color: white;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.NameofFilm{
+  background-color:white;
+  font-size: 30px;
+  height: 50px;
+  font-weight: bolder;
+  line-height: 50px;
+  margin-left: 10px;
+  text-align: center;
+}
+.PlachkaPleerov{
+  display: flex;
+  height: 40px;
+  background-color: #858585;
+  text-align: center;
+  line-height: 40px;
+  font-size: 35px;
+}
+.Pleer{
+  flex-grow: 1;
+  background-color: #cf6000;
+}
+.Trailer{
+  flex-grow: 2;
+  background-color: #fa0400;
+}
+.Pleer:first-of-type{
+  background-color: #00ff0d;
+}
+.IfraimTrailer{
+  display: none;
+}
+.IfraimFilmPleer2{
+  display: none;
+}
+.IfraimFilmPleer3{
+  display: none;
+}
+@media (max-width: 768px) {
+  .DivSearch{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90vw;
+    height: 7vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .FormInput{
+    background-color: white;
+    height: 7vh;
+    flex: 0 0 30%;
+  }
+  .link{
+    font-size: 9px;
+  }
+  input::placeholder {
+    font-size: 10px;
+  }
+  .DivMain{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .NameofFilm{
+  font-size: 20px;
+  }
+  .Pleer{
+    font-size: 20px;
+  }
+  .Trailer{
+    font-size: 20px;
+  }
+  .IfraimFilm{
+  height: 150px;
+  }
+  .IfraimFilmPleer2{
+  height: 150px;
+  }
+  .IfraimFilmPleer3{
+  height: 150px;
+  }
+  .IfraimTrailer{
+  height: 150px;
+  }
+  @media (min-width: 768px) and (max-width: 1180px) {
+    input::placeholder {
+      font-size: 20px;
+    }
+    .DivSearch{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      width: 90vw;
+      height: 7vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    .link{
+      font-size: 22px;
+    }
+    .DivMain{
+      width: 90vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    .IfraimFilm{
+    height: 300px;
+    }
+    .IfraimFilmPleer2{
+    height: 300px;
+    }
+    .IfraimFilmPleer3{
+    height: 300px;
+    }
+    .IfraimTrailer{
+    height: 300px;
+    }
+}
+@media (max-height: 450px) {
+  .IfraimFilm{
+  height: 280px;
+  }
+  .IfraimFilmPleer2{
+  height: 280px;
+  }
+  .IfraimFilmPleer3{
+  height: 280px;
+  }
+  .IfraimTrailer{
+  height: 280px;
+  }
 }

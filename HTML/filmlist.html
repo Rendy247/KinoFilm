@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset = “utf-8” >
-    <meta name=”author” content = “Гатин Расул” >
-  <link rel="stylesheet" href="../CSS/filmlist.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KinoFilm</title>
+<meta charset = “utf-8” >
+<meta name=”author” content = “Гатин Расул” >
+<link rel="stylesheet" href="../CSS/filmlist.css">
 </head>
 <body>
-  <header>
-      <img src="https://papik.pro/grafic/uploads/posts/2023-04/thumbs/1681530706_papik-pro-p-logotip-zvezdnie-voini-vektor-48.png" alt="StarWars">
-      <div class="Search">
-      <img class="Kino" src="https://cdn-icons-png.flaticon.com/512/412/412887.png" alt="Kino">
-      <div class="name">
-      KinoFilm
-      </div>
-      <a class="link" href="#">Фильмы</a>
-      <a class="link" href="#">Сериалы</a>
-      <a class="link" href="#">Мультфильмы</a>
-      <form class="" action="index.html" method="post">
-        <input placeholder="Введите название кино" type="text" name="" value="">
-      </form>
-      </div>
-  </header>
-  <main>
-  </main>
+<header>
+<img id="ImgKinoFilm" src="../Image/KinoFilm.jpg" alt="KinoFilm" onclick="window.location.href='../index.html'">
+<div class="DivSearch">
+<a class="link" href="#">Фильмы</a>
+<a class="link" href="#">Сериалы</a>
+<a class="link" href="#">Мультфильмы</a>
+<form class="FormInput" action="index.html" method="post">
+<input class="Poisk" placeholder="Введите название" type="text" name="" value="">
+</form>
+</div>
+</header>
+<main>
+  <div class="DivMain">
+    <p class="NameofFilm">Звездные войны. Эпизод 1</p>
+    <div class="PlachkaPleerov">
+        <div id="Pleer1" class="Pleer" onclick="PereklVkladokPleer1()">Vk Video</div>
+        <div id="Pleer2" class="Pleer" onclick="PereklVkladokPleer2()">Плеер 2</div>
+        <div id="Pleer3" class="Pleer" onclick="PereklVkladokPleer3()">Плеер 3</div>
+        <div class="Trailer" onclick="PereklVkladokTrailer()">Trailer</div>
+    </div>
+    <iframe class="IfraimFilm" src="https://vkvideo.ru/video_ext.php?oid=-233305174&id=456241352&hash=2f16e1cb9f3ae000&hd=3" width="100%" height="570px" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+    <iframe class="IfraimFilmPleer2" src="https://vkvideo.ru/video_ext.php?oid=-220018529&id=456240812&hash=44feb16bce7906e8&hd=3" width="100%" height="570px"  allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+    <iframe class="IfraimFilmPleer3" src="https://vkvideo.ru/video_ext.php?oid=-220018529&id=456240812&hash=44feb16bce7906e8&hd=3" width="100%" height="570px"  allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+    <iframe class="IfraimTrailer" src="https://vkvideo.ru/video_ext.php?oid=-220018529&id=456240812&hash=44feb16bce7906e8&hd=3" width="100%" height="570px"  allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+  </div>
+</main>
+<script>
+function PereklVkladokTrailer(){
+  document.querySelector('.IfraimFilm').style.display = 'none';
+  document.querySelector('.IfraimFilmPleer2').style.display = 'none';
+  document.querySelector('.IfraimFilmPleer3').style.display = 'none';
+  document.querySelector('.IfraimTrailer').style.display = 'block';
+  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
+  document.querySelector('.Trailer').style.backgroundColor = "#00ff0d";
+}
+function PereklVkladokPleer1(){
+  document.querySelector('.IfraimFilm').style.display = 'block';
+  document.querySelector('.IfraimFilmPleer2').style.display = 'none';
+  document.querySelector('.IfraimFilmPleer3').style.display = 'none';
+  document.querySelector('.IfraimTrailer').style.display = 'none';
+  document.querySelector('#Pleer1').style.backgroundColor = "#00ff0d";
+  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
+  document.querySelector('.Trailer').style.backgroundColor = "#fa0400";
+}
+function PereklVkladokPleer2(){
+  document.querySelector('.IfraimFilm').style.display = 'none';
+  document.querySelector('.IfraimFilmPleer2').style.display = 'block';
+  document.querySelector('.IfraimFilmPleer3').style.display = 'none';
+  document.querySelector('.IfraimTrailer').style.display = 'none';
+  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer2').style.backgroundColor = "#00ff0d";
+  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
+  document.querySelector('.Trailer').style.backgroundColor = "#fa0400";
+}
+function PereklVkladokPleer3(){
+  document.querySelector('.IfraimFilm').style.display = 'none';
+  document.querySelector('.IfraimFilmPleer2').style.display = 'none';
+  document.querySelector('.IfraimFilmPleer3').style.display = 'block';
+  document.querySelector('.IfraimTrailer').style.display = 'none';
+  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer3').style.backgroundColor = "#00ff0d";
+  document.querySelector('.Trailer').style.backgroundColor = "#fa0400";
+}
+ </script>
 </body>
 </html>

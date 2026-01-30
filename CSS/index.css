@@ -108,6 +108,7 @@ input::placeholder {
 }
 .Play:hover, .ImgIkonki:hover{
   opacity: 0.5;
+  cursor: pointer;
 }
 .ImageLink{
   top: 130px;
