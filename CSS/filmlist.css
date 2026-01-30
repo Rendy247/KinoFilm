@@ -86,6 +86,7 @@ input::placeholder {
 }
 .Pleer{
   flex-grow: 1;
+  cursor: pointer;
   background-color: #cf6000;
 }
 .Trailer{
@@ -97,11 +98,14 @@ input::placeholder {
 }
 .IfraimTrailer{
   display: none;
+  cursor: pointer;
 }
 .IfraimFilmPleer2{
+  cursor: pointer;
   display: none;
 }
 .IfraimFilmPleer3{
+  cursor: pointer;
   display: none;
 }
 @media (max-width: 768px) {
