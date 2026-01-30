@@ -122,8 +122,8 @@ input::placeholder {
   .link{
     font-size: 9px;
   }
-  input::placeholder {
-    font-size: 10px;
+  .Poisk::placeholder {
+    font-size: 11px;
   }
   .DivMain{
     width: 90vw;
@@ -131,7 +131,7 @@ input::placeholder {
     margin-right: 5vw;
   }
   .NameofFilm{
-  font-size: 20px;
+    font-size: 20px;
   }
   .Pleer{
     font-size: 20px;
@@ -151,6 +151,7 @@ input::placeholder {
   .IfraimTrailer{
   height: 150px;
   }
+}
   @media (min-width: 768px) and (max-width: 1180px) {
     input::placeholder {
       font-size: 20px;
@@ -186,6 +187,9 @@ input::placeholder {
     }
 }
 @media (max-height: 450px) {
+  .link{
+    font-size: 20px;
+  }
   .IfraimFilm{
   height: 280px;
   }
