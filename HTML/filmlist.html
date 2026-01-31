@@ -23,58 +23,22 @@
   <div class="DivMain">
     <p class="NameofFilm">Звездные войны. Эпизод 1</p>
     <div class="PlachkaPleerov">
-        <div id="Pleer1" class="Pleer" onclick="PereklVkladokPleer1()">Vk Video</div>
-        <div id="Pleer2" class="Pleer" onclick="PereklVkladokPleer2()">Плеер 2</div>
-        <div id="Pleer3" class="Pleer" onclick="PereklVkladokPleer3()">Плеер 3</div>
-        <div class="Trailer" onclick="PereklVkladokTrailer()">Trailer</div>
+        <div id="Pleer1" class="Pleer" onclick="switchVideo(1)">Vk Video</div>
+        <div id="Pleer2" class="Pleer" onclick="switchVideo(2)">Плеер 2</div>
+        <div id="Pleer3" class="Pleer" onclick="switchVideo(3)">Плеер 3</div>
+        <div class="Trailer" onclick="switchVideo('trailer')">Trailer</div>
     </div>
-    <iframe class="IfraimFilm" src="https://vkvideo.ru/video_ext.php?oid=-233305174&id=456241352&hash=2f16e1cb9f3ae000&hd=3" width="100%" height="570px" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-    <iframe class="IfraimFilmPleer2" width="100%" height="570px" src="https://rutube.ru/play/embed/6411d33b66a9bde84eb5435ebb12e022/" style="border: none;" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    <iframe class="IfraimFilmPleer3" src="https://vkvideo.ru/video_ext.php?oid=-155284657&id=456243856&hash=28c95a7391d42115&hd=3" width="100%" height="570px" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-    <iframe class="IfraimTrailer" src="https://vkvideo.ru/video_ext.php?oid=-220018529&id=456240812&hash=44feb16bce7906e8&hd=3" width="100%" height="570px"  allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
+    <div id="video-box"></div>
   </div>
-</main>
-<script>
-function PereklVkladokTrailer(){
-  document.querySelector('.IfraimFilm').style.display = 'none';
-  document.querySelector('.IfraimFilmPleer2').style.display = 'none';
-  document.querySelector('.IfraimFilmPleer3').style.display = 'none';
-  document.querySelector('.IfraimTrailer').style.display = 'block';
-  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
-  document.querySelector('.Trailer').style.backgroundColor = "#00ff0d";
-}
-function PereklVkladokPleer1(){
-  document.querySelector('.IfraimFilm').style.display = 'block';
-  document.querySelector('.IfraimFilmPleer2').style.display = 'none';
-  document.querySelector('.IfraimFilmPleer3').style.display = 'none';
-  document.querySelector('.IfraimTrailer').style.display = 'none';
-  document.querySelector('#Pleer1').style.backgroundColor = "#00ff0d";
-  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
-  document.querySelector('.Trailer').style.backgroundColor = "#fa0400";
-}
-function PereklVkladokPleer2(){
-  document.querySelector('.IfraimFilm').style.display = 'none';
-  document.querySelector('.IfraimFilmPleer2').style.display = 'block';
-  document.querySelector('.IfraimFilmPleer3').style.display = 'none';
-  document.querySelector('.IfraimTrailer').style.display = 'none';
-  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer2').style.backgroundColor = "#00ff0d";
-  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
-  document.querySelector('.Trailer').style.backgroundColor = "#fa0400";
-}
-function PereklVkladokPleer3(){
-  document.querySelector('.IfraimFilm').style.display = 'none';
-  document.querySelector('.IfraimFilmPleer2').style.display = 'none';
-  document.querySelector('.IfraimFilmPleer3').style.display = 'block';
-  document.querySelector('.IfraimTrailer').style.display = 'none';
-  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer3').style.backgroundColor = "#00ff0d";
-  document.querySelector('.Trailer').style.backgroundColor = "#fa0400";
-}
- </script>
+</main><script type="text/javascript">
+const videoPlayers = {
+  1: "https://vk.com/video_ext.php?oid=-186333195&id=456239446",
+  2: "https://vk.com/video_ext.php?oid=485771195&id=456240748",
+  3: "https://vk.com/video_ext.php?oid=-80021931&id=456242272",
+  trailer: "https://vk.com/video_ext.php?oid=-181157148&id=456242067"
+};
+</script>
+<script src="../JavaScript/filmlist.js"></script>
 </body>
 </html>
