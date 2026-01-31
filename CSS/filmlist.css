@@ -96,18 +96,6 @@ input::placeholder {
 .Pleer:first-of-type{
   background-color: #00ff0d;
 }
-.IfraimTrailer{
-  display: none;
-  cursor: pointer;
-}
-.IfraimFilmPleer2{
-  cursor: pointer;
-  display: none;
-}
-.IfraimFilmPleer3{
-  cursor: pointer;
-  display: none;
-}
 @media (max-width: 768px) {
   .DivSearch{
     display: flex;
@@ -143,18 +131,6 @@ input::placeholder {
   .Trailer{
     font-size: 20px;
   }
-  .IfraimFilm{
-  height: 150px;
-  }
-  .IfraimFilmPleer2{
-  height: 150px;
-  }
-  .IfraimFilmPleer3{
-  height: 150px;
-  }
-  .IfraimTrailer{
-  height: 150px;
-  }
 }
   @media (min-width: 768px) and (max-width: 1180px) {
     input::placeholder {
@@ -177,33 +153,9 @@ input::placeholder {
       margin-left: 5vw;
       margin-right: 5vw;
     }
-    .IfraimFilm{
-    height: 300px;
-    }
-    .IfraimFilmPleer2{
-    height: 300px;
-    }
-    .IfraimFilmPleer3{
-    height: 300px;
-    }
-    .IfraimTrailer{
-    height: 300px;
-    }
 }
 @media (max-height: 450px) {
   .link{
     font-size: 20px;
-  }
-  .IfraimFilm{
-  height: 280px;
-  }
-  .IfraimFilmPleer2{
-  height: 280px;
-  }
-  .IfraimFilmPleer3{
-  height: 280px;
-  }
-  .IfraimTrailer{
-  height: 280px;
   }
 }
