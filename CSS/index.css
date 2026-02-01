@@ -183,6 +183,9 @@
   }
 }
 @media (max-height: 450px) {
+  .ImgIkonki{
+    height: 250px;
+  }
   .DivIkanka{
     height: 300px;
     width: 150px;
