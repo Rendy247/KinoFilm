@@ -2,15 +2,21 @@ let currentVideo = 1;
 let videoLoaded = false;
 
 function switchVideo(videoNumber) {
-  document.querySelector('#Pleer1').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer2').style.backgroundColor = "#cf6000";
-  document.querySelector('#Pleer3').style.backgroundColor = "#cf6000";
-  document.querySelector('.Trailer').style.backgroundColor = "#cf6000";
+  document.querySelector('#Pleer1').style.backgroundColor = "#333";
+  document.querySelector('#Pleer1').style.border = "none";
+  document.querySelector('#Pleer2').style.backgroundColor = "#333";
+  document.querySelector('#Pleer2').style.border = "none";
+  document.querySelector('#Pleer3').style.backgroundColor = "#333";
+  document.querySelector('#Pleer3').style.border = "none";
+  document.querySelector('.Trailer').style.backgroundColor = "#333";
+  document.querySelector('.Trailer').style.border = "none";
   if (videoNumber === 'trailer') {
-        document.querySelector('.Trailer').style.backgroundColor = "#00ff0d";
+        document.querySelector('.Trailer').style.backgroundColor = "black";
+          document.querySelector('.Trailer').style.border = "1px solid white";
     }
     else {
-        document.querySelector(`#Pleer${videoNumber}`).style.backgroundColor = "#00ff0d";
+        document.querySelector(`#Pleer${videoNumber}`).style.backgroundColor = "black";
+        document.querySelector(`#Pleer${videoNumber}`).style.border = "1px solid white";
     }
     currentVideo = videoNumber;
     if (videoLoaded) {
@@ -40,14 +46,12 @@ function showVideoButton() {
 
     videoBox.innerHTML = `
         <div class="video-placeholder" onclick="loadVideo()">
-            <img src="https://via.placeholder.com/1280x720/222/fff?text=Нажми+сюда+для+загрузки+видео"
-                 style="width:100%; height:300px; object-fit:cover;">
-            <div style="text-align:center; padding:20px; background:#333; color:white;">
-                <button style="background:#4CAF50; color:white; padding:15px 30px;
-                               border:none; border-radius:10px; font-size:18px; margin-top:10px;">
-                    ▶ Загрузить видео
-                </button>
-            </div>
+        <div style=" padding:20px; background:black; color:white;">
+            <button style="background:#4CAF50; color:white; padding:15px 30px;
+                           border:none; border-radius:10px; font-size:18px; margin-top:10px;">
+                ▶ Смотреть
+            </button>
+        </div>
         </div>
     `;
 }

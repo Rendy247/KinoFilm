@@ -9,11 +9,13 @@
 </head>
 <body>
 <header>
-<img id="ImgKinoFilm" src="../Image/KinoFilm.jpg" alt="KinoFilm" onclick="window.location.href='../index.html'">
 <div class="DivSearch">
+<div class="DivKinoFilm" onclick="window.location.href='../index.html'">KinoFilm</div>
+<div class="DivLink">
 <a class="link" href="#">Фильмы</a>
 <a class="link" href="#">Сериалы</a>
 <a class="link" href="#">Мультфильмы</a>
+</div>
 <form class="FormInput" action="index.html" method="post">
 <input class="Poisk" placeholder="Введите название" type="text" name="" value="">
 </form>
@@ -21,22 +23,27 @@
 </header>
 <main>
   <div class="DivMain">
+    <div class="DivNameAndPleer">
+      <div class="DivNameAndPleer2">
     <p class="NameofFilm">Звездные войны. Эпизод 1</p>
     <div class="PlachkaPleerov">
-        <div id="Pleer1" class="Pleer" onclick="switchVideo(1)">Vk Video</div>
+        <div id="Pleer1" class="Pleer" onclick="switchVideo(1)">Плеер 1</div>
         <div id="Pleer2" class="Pleer" onclick="switchVideo(2)">Плеер 2</div>
         <div id="Pleer3" class="Pleer" onclick="switchVideo(3)">Плеер 3</div>
-        <div class="Trailer" onclick="switchVideo('trailer')">Trailer</div>
+        <div class="Trailer" onclick="switchVideo('trailer')">Трейлер</div>
     </div>
-
+    </div>
+    </div>
+    <p class="Opisanie">Описание</p>
+    <p class="Text">Фильм начинается с дипломатической миссии, в которой рыцари-джедаи Квай-Гон Джинн и его ученик Оби-Ван Кеноби отправляются на планету, чтобы урегулировать торговый спор. Однако их переговоры с Торговой Федерацией терпят неудачу, и герои вынуждены спасаться бегством. Они обнаруживают, что планета подверглась блокаде и вторжению, и решают помочь местному правителю, королеве Падме Амидале, избежать захвата. Вместе они отправляются на столицу Галактической Республики, чтобы попросить помощи.</p>
     <div id="video-box"></div>
   </div>
 </main><script type="text/javascript">
 const videoPlayers = {
   1:"https://api.variyt.ws/embed/movie/204",
-  2: "https://voidboost.net/embed/1202852",
-  3: "https://vk.com/video_ext.php?oid=-80021931&id=456242272",
-  trailer: "https://vk.com/video_ext.php?oid=-181157148&id=456242067"
+  2: "https://vkvideo.ru/video_ext.php?oid=-233305175&id=456240575&hash=6d777ad756596ed5&hd=3",
+  3: "",
+  trailer: "https://vkvideo.ru/video_ext.php?oid=-40191159&id=456263044&hash=f9da1b9607bf628b&hd=3"
 };
 </script>
 <script src="../JavaScript/filmlist.js"></script>
