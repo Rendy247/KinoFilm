@@ -167,9 +167,6 @@ input::placeholder {
   .Trailer{
     font-size: 20px;
   }
-  .Opisanie{
-    color: red;
-  }
 }
   @media (min-width: 768px) and (max-width: 1180px) {
     input::placeholder {
@@ -192,14 +189,18 @@ input::placeholder {
       margin-left: 5vw;
       margin-right: 5vw;
     }
-    .Opisanie{
-      color: blue;
-    }
 }
 @media (max-height: 450px) {
   .link{
     font-size: 20px;
   }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .Opisanie{
+    color: red;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1180px) {
   .Opisanie{
     color: black;
   }
