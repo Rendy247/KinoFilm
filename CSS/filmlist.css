@@ -169,6 +169,22 @@ input::placeholder {
   }
 }
   @media (min-width: 768px) and (max-width: 1180px) {
+    .DivSearch{
+      width: 100%;
+    }
+    .DivKinoFilm{
+      margin: 0;
+      font-size: 50px;
+      width: 200px;
+    }
+    .DivLink{
+    display: flex;
+    font-size: 10px;
+    width: 400px;
+    }
+    .link{
+    margin: 0;
+    }
     input::placeholder {
       font-size: 20px;
     }
@@ -195,13 +211,16 @@ input::placeholder {
     font-size: 20px;
   }
 }
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-height:800px) and (min-height:900px) {
   .Opisanie{
     color: red;
   }
 }
-@media (min-width: 1000px) and (max-width: 1180px) {
+@media (min-height:900px) and (min-height:1000px) {
   .Opisanie{
-    color: black;
+    color: #ffbb00;
   }
-}
+  @media (min-height:1000px) and (min-height: 1100px) {
+    .Opisanie{
+      color: #ff00e6;
+    }
