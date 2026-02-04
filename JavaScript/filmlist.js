@@ -29,7 +29,6 @@ function loadVideo() {
     videoBox.innerHTML = '';
     const iframe = document.createElement('iframe');
     iframe.style.width = '100%';
-    iframe.style.height = '570px';
     iframe.style.border = 'none';
     iframe.allowFullscreen = true;
 
