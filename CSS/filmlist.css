@@ -141,6 +141,10 @@ input::placeholder {
 #video-box iframe {
   height: 570px;
 }
+.Poisk{
+  border: 2px solid #696969;
+  padding-left: 10px;
+}
 @media (max-width: 767px) {
   html, body {
      width: 100vw !important;
@@ -166,11 +170,17 @@ input::placeholder {
   }
   .DivLink{
     display: none;
+    position: absolute;
     margin: 0;
-    width: 300px;
+    margin-top: 50px;
+    width: 100vw;
+    height: 123px;
   }
   .link{
-  font-size: 10px;
+  border-top: 1px solid #696969;
+  line-height:40px;
+  display: block;
+  text-align: center;
   margin: 0;
   }
   .FormInput{
@@ -225,6 +235,7 @@ input::placeholder {
   #video-box iframe {
     height: 200px;
   }
+  BurgerMenu
 }
 @media (min-width: 768px) and (max-width: 1180px) {
     html, body {

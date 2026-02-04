@@ -59,3 +59,15 @@ document.addEventListener('DOMContentLoaded', function() {
     showVideoButton();
     switchVideo(1); // По умолчанию выбран первый плеер
 });
+var divLink = document.getElementById('DivLink');
+var DivLinkBool = false;
+function Burger(){
+  if(DivLinkBool == false){
+  divLink.style.display = "block";
+  DivLinkBool = true;
+  }
+  else{
+  divLink.style.display = "none";
+  DivLinkBool = false;
+  }
+}
