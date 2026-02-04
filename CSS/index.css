@@ -66,18 +66,20 @@
   margin-left: 15vw;
   margin-right: 15vw;
   display: flex;
-  gap: 33px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 .DivIkanka{
   position: relative;
-  margin-top: 4vh;
-  width: 17%;
-  height: 45vh;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width:238px;
+  height:400px;
 }
 .ImgIkonki{
   width: 100%;
-  height: 80%;
+  height: 350px;
   object-fit: cover;
   border: 2px solid rgba(255,255,255, 0.9);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
@@ -87,7 +89,7 @@
 .NameFilm{
   text-align: center;
   color: white;
-  font-size: 100%;
+  font-size: 25px;
   cursor: pointer;
   width: 100%;
   height: 20%;
@@ -97,15 +99,7 @@
   cursor: pointer;
   margin-bottom: 10px;
 }
-.ImageLink{
-  top: 130px;
-  right: 90px;
-  opacity: 0.5;
-  width: 70px;
-  height: 70px;
-  border-radius: 100%;
-}
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .DivKinoFilm{
   margin-left: 18px;
   }
@@ -136,12 +130,18 @@
     justify-content: space-evenly;
   }
   .DivIkanka{
+    margin-top: 5px;
     background-color: transparent;
     width: 130px;
     height: 240px;
   }
+  .ImgIkonki{
+    width: 130px;
+    height: 200px;
+  }
   .NameFilm{
-  font-size: 80%;
+    height: 40px;
+  font-size: 15px;
   }
   .Poisk::placeholder {
     font-size: 10px;
@@ -185,11 +185,12 @@
 }
 @media (max-height: 450px) {
   .ImgIkonki{
+    width:150px;
     height: 250px;
   }
   .DivIkanka{
     height: 300px;
-    width: 150px;
+    width:150px;
     margin-left: 10px;
     margin-right: 10px;
   }

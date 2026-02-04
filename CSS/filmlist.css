@@ -317,7 +317,6 @@ input::placeholder {
 @media (max-height: 450px) {
   .DivNameAndPleer{
     height: 300px;
-    border: 2px solid red;
   }
   .DivNameAndPleer2{
     padding-top: 300px;
