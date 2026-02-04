@@ -325,4 +325,7 @@ input::placeholder {
   #video-box iframe {
     height: 200px;
   }
+  .DivLink{
+    display: block;
+  }
 }
