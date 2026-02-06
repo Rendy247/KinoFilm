@@ -239,5 +239,85 @@ const moviesDatabase = [
         },
         backgroundImage: "https://static.okko.tv/images/v4/11060d47-b059-488f-ad21-e811b045cea2?scale=1&quality=80"
       },
+      {
+       id: 16,
+       title: "Асока",
+       type: "сериал",
+       genre: "фантастика",
+       image: "https://posters.movieposterdb.com/23_09/2023/13622776/l_ahsoka-movie-poster_47975436.png",
+       link: "filmlist.html?id=16",
+       description: "Асока Тано — джедай и бывший падаван Энакина Скайуокера. Она охотится за адмиралом Трауном, чтобы найти пропавшего джедая Эзру Бриджера.",
+       videoPlayers: {
+         1: "https://api.variyt.ws/embed/movie/63938",
+         2: "https://gencit.info/low/1392645?season=1&episode=1",
+         3: "",
+         trailer: ""
+       },
+       backgroundImage: "https://static.okko.tv/images/v4/d72ee05e-5ccb-4b30-a9d7-5a74d7323c53?presetId=4000&width=1200&height=630&scale=1&quality=80"
+     },
+     {
+        id: 17,
+        title: "Книга Бобы Фетта",
+        type: "сериал",
+        genre: "фантастика",
+        image: "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/49816386-2044168.jpg",
+        link: "filmlist.html?id=17",
+        description: "Вся жизнь Бобы Фетта прошла в постоянных сражениях и битвах. Достойный продолжатель дела своего приемного отца наемника Джанго Фетта, он не раз был на волоске от гибели, но унаследованная от Джанго мандалорская броня всегда надежно защищала его от смерти.",
+        videoPlayers: {
+          1: "https://gencit.info/low/4290977?season=1&episode=1",
+          2: "https://api.variyt.ws/embed/movie/52010",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/f92694e2-1182-498a-9041-a11051b2c5b5?scale=1&quality=80"
+      },
+      {
+        id: 18,
+        title: "Звездные войны: Сказания о преступном мире",
+        type: "мультфильм",
+        genre: "фантастика",
+        image: "https://posters.movieposterdb.com/25_04/2025/36414431/l_star-wars-tales-of-the-underworld-movie-poster_55da84b1.jpg",
+        link: "filmlist.html?id=18",
+        description: "Бывшая наёмная убийца Асажж Вентресс пускается в бега вместе с охотником за головами Кэдом Бэйном.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/82628",
+          2: "https://plplayer.online/s/15368?season=1&episode=1&voice=6&vonly=true&posters=https://mandalorec.top/wp-content/uploads/2025/05/tales-of-the-underworld-1-seriya.jpg",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://images.iptv.rt.ru/images/d107103ir4sqiatdsai0.jpg"
+      },
+      {
+       id: 19,
+       title: "Оби-Ван Кеноби",
+       type: "сериал",
+       genre: "фантастика",
+       image: "https://posters.movieposterdb.com/22_05/2022/8466564/l_8466564_de8414df.jpg",
+       link: "filmlist.html?id=19",
+       description: "Вместе с ведущим зрители переместятся за кулисы сериала, услышат замечания и комментарии актеров и создателей, узнают много нового о том, как был снят сериал. Документальный специальный эпизод продемонстрирует, сколько любви и сил было вложено в создание проекта.",
+       videoPlayers: {
+         1: "https://api.variyt.ws/embed/movie/59625",
+         2: "https://gencit.info/low/1160046?season=1&episode=1",
+         3: "",
+         trailer: ""
+       },
+       backgroundImage: "https://sun1-24.userapi.com/SWaXBQUhl_O9sl0CMsarnSCcq_LUZH1eQQ-Dsw/5PjkYPIz_6I.jpg"
+     },
+     {
+        id: 20,
+        title: "Звездные войны: Сказания об Империи",
+        type: "мультфильм",
+        genre: "фантастика",
+        image: "https://posters.movieposterdb.com/24_08/2024/32019314/l_star-wars-tales-of-the-empire-movie-poster_30a2c640.png",
+        link: "filmlist.html?id=20",
+        description: "Продолжение мультсериала 2022 года «Звёздные войны: Сказания о джедаях», который переносит нас в огромную галактическую империю глазами двух воинов, чьи пути расходятся. Потеряв все, служительница Империи с планеты Корвус Морган Элсбет становится на путь мести, в то время как бывший джедай Баррис Оффи изо всех сил пытается выжить в быстро меняющейся галактике. В конечном итоге выбор героев определяет их судьбу.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/74163",
+          2: "https://plplayer.online/s/11721?season=1&episode=1&voice=12&vonly=true&posters=https://mandalorec.top/wp-content/uploads/2024/05/tales-of-the-empire-1-seria.jpg",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://images.iptv.rt.ru/images/d107103ir4sqiatdsai0.jpg"
+      },
 ];
 window.moviesDatabase = moviesDatabase;
