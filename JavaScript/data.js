@@ -143,5 +143,37 @@ const moviesDatabase = [
         },
         backgroundImage: "https://static.okko.tv/images/v4/a83a16de-2f0b-49f9-a6b2-cdca5a5673f5?scale=1&quality=80"
       },
+      {
+        id: 10,
+        title: "Мондалорец",
+        type: "сериал",
+        genre: "фантастика",
+        image: "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/40966273-2423940.jpg",
+        link: "filmlist.html?id=10",
+        description: "После падения Империи одинокий мандалорец-наёмник Дин Джарин бороздит дальние рубежи Галактики. Взявшись за опасный заказ, он встречает загадочного малыша Грогу и вместо убийства решает защитить его от остатков имперских сил, становясь беглецом и отцом для существа, связанного с Силой. Это история о чести, долге и искуплении.",
+        videoPlayers: {
+          1: "https://gencit.info/low/1118138?season=1&episode=1",
+          2: "https://w140.zona.plus/tvseries/mandalorets",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/f310486e-3fbf-441e-8468-f212924261fe?scale=1&quality=80"
+      },
+      {
+        id: 11,
+        title: "Звездные войны: Войны клонов",
+        type: "сериал",
+        genre: "фантастика",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3GyijKtTMobsvDWciWdL2wqSX_Kf5BgKAg&s",
+        link: "filmlist.html?id=11",
+        description: "На передовых позициях межгалактической войны Добра и Зла - снова любимые герои: Анакин Скайуокер, Оби-Ван Кеноби и Падме Амидала, а также присоединившийся к ним падаван Анакина, Асока.Противостоящие им злодеи - Палпатин, граф Дуку и генерал Гривус - вынашивают план захвата Галактики. Начинается последняя схватка, и судьбы Вселенной вверены рыцарям-джедаям.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/2968",
+          2: "https://gencit.info/low/229861?season=1&episode=1",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/53f472dc-dadc-4e84-9f8c-3d52f07e641b?scale=1&quality=80"
+      },
 ];
 window.moviesDatabase = moviesDatabase;
