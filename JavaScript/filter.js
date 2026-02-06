@@ -1,7 +1,7 @@
 let currentFilter = 'фильм'; // По умолчанию "фильм"
 let currentResults = [];
 let currentPage = 1;
-const filmsPerPage = 24;
+const filmsPerPage = 20;
 
 // Функция получения параметров из URL
 function getUrlParams() {
