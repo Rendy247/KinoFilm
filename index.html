@@ -4,52 +4,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KinoFilm</title>
   <meta charset = “utf-8” >
-  <meta name=”author” content = “Гатин Расул” >
+  <meta name="author" content="Гатин Расул">
   <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
 <header>
 <div class="DivKinoFilm">KinoFilm</div>
 <div class="DivSearch">
-  <a class="link" href="#">Фильмы</a>
-  <a class="link" href="#">Сериалы</a>
-  <a class="link" href="#">Мультфильмы</a>
-  <form class="FormInput" action="index.html" method="post">
-  <input class="Poisk" placeholder="Введите название" type="text" name="" value="">
+  <a class="link" data-filter="фильм">Фильмы</a>
+    <a class="link" data-filter="сериал">Сериалы</a>
+    <a class="link" data-filter="мультфильм">Мультфильмы</a>
+  <form class="FormInput" action="index.html" method="post" onsubmit="performSearch(document.getElementById('searchInput').value); return false;">
+  <input id="searchInput" class="Poisk" placeholder="Введите название" type="text" name="" value="">
   </form>
 </div>
 </header>
 <main>
-<div class="DivMain">
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездные войны. Эпизод 1</p>
+  <div class="DivMain" id="moviesContainer">
   </div>
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездный войны. Эпизод 1</p>
-  </div>
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездный войны. Эпизод 1</p>
-  </div>
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездный войны. Эпизод 1</p>
-  </div>
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездный войны. Эпизод 1</p>
-  </div>
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездный войны. Эпизод 1</p>
-  </div>
-  <div class="DivIkanka" onclick="window.location.href='HTML/filmlist.html'">
-      <img class="ImgIkonki" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrL6nEowCWBlq9DWaqVMhBMV4zrQXpwngd1Q&s" alt="IkonkaFilma">
-      <p class="NameFilm">Звездный войны. Эпизод 1</p>
-  </div>
-</div>
+  <div id="pagination" class="pagination"></div>
 </main>
+<script type="text/javascript">
+
+</script>
+<script src="JavaScript/data.js"></script>
+<script src="JavaScript/filter.js"></script>
+<script src="JavaScript/search.js"></script>
 </body>
 </html>

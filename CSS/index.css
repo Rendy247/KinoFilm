@@ -39,6 +39,7 @@
   height:98%;
   border-left: 1px solid white;
   border-top: 1px solid white;
+  cursor: pointer;
 }
 .FormInput{
   min-width: 0;
@@ -98,6 +99,100 @@
   transform: scale(1.1);
   cursor: pointer;
   margin-bottom: 10px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 20px 0;
+}.page-btn {
+  background-color: #333;
+  color: white;
+  border: 1px solid #666;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  min-width: 40px;
+  text-align: center;
+}
+
+.page-btn:hover:not(:disabled) {
+  background-color: #444;
+  border-color: #808080;
+}
+
+.page-btn.active {
+  background-color:#f0f0f0;
+  border-color: #808080;
+  color: black;
+}
+
+.page-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dots {
+  color: white;
+  padding: 0 5px;
+  font-size: 18px;
+}
+.link.active {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.link:hover {
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+/* Обновите стиль логотипа */
+.DivKinoFilm {
+  color: white;
+  font-size: 60px;
+  font-family: Roboto;
+  font-weight: bolder;
+  width: 30vw;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  cursor: pointer; /* Измените с default на pointer */
+  transition: color 0.3s;
+  text-align: center;
+}
+
+.DivKinoFilm:hover {
+  color: #e50914;
+}
+@media (max-width: 767px) {
+  .pagination {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 5px;
+  }
+
+  .page-btn {
+    padding: 6px 10px;
+    font-size: 14px;
+    min-width: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .pagination {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }
 @media (max-width: 767px) {
   .DivKinoFilm{

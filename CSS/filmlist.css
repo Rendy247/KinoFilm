@@ -235,7 +235,6 @@ input::placeholder {
   #video-box iframe {
     height: 200px;
   }
-  BurgerMenu
 }
 @media (min-width: 768px) and (max-width: 1180px) {
     html, body {

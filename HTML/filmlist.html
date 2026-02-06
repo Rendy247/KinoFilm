@@ -4,21 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>KinoFilm</title>
 <meta charset = "utf-8" >
-<meta name=”author” content = “Гатин Расул” >
+<meta name="author" content="Гатин Расул">
 <link rel="stylesheet" href="../CSS/filmlist.css">
 </head>
 <body>
 <header>
 <div class="DivSearch">
 <div class="DivKinoFilm" onclick="window.location.href='../index.html'">KinoFilm</div>
-<div class="DivLink" id="DivLink">
-<a class="link" href="#">Фильмы</a>
-<a class="link" href="#">Сериалы</a>
-<a class="link" href="#">Мультфильмы</a>
-</div>
-<form class="FormInput" action="index.html" method="post">
-<input class="Poisk" placeholder="Введите название" type="text" name="" value="">
-</form>
+  <div class="DivLink" id="DivLink">
+    <a class="link" data-filter="фильм" href="#">Фильмы</a>
+  <a class="link" data-filter="сериал" href="#">Сериалы</a>
+  <a class="link" data-filter="мультфильм" href="#">Мультфильмы</a>
+  </div>
+  <form class="FormInput" action="../index.html" method="get">
+    <input class="Poisk" placeholder="Введите название" type="text" name="search" id="searchInput" value="">
+  </form>
 <img class="KnopkaPoisk"src="https://cdn-icons-png.flaticon.com/512/51/51658.png" alt="Poisk">
 <img  onclick="Burger()"class="Burger" src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-s98j-p-menyu-ikonka-png-18.png" alt="Burger">
 </div>
@@ -27,7 +27,7 @@
   <div class="DivMain">
     <div class="DivNameAndPleer">
       <div class="DivNameAndPleer2">
-    <p class="NameofFilm">Звездные войны. Эпизод 1</p>
+    <p class="NameofFilm">Загрузка...</p>
     <div class="PlachkaPleerov">
         <div id="Pleer1" class="Pleer" onclick="switchVideo(1)">Плеер 1</div>
         <div id="Pleer2" class="Pleer" onclick="switchVideo(2)">Плеер 2</div>
@@ -37,17 +37,11 @@
     </div>
     </div>
     <p class="Opisanie">Описание</p>
-    <p class="Text">Фильм начинается с дипломатической миссии, в которой рыцари-джедаи Квай-Гон Джинн и его ученик Оби-Ван Кеноби отправляются на планету, чтобы урегулировать торговый спор. Однако их переговоры с Торговой Федерацией терпят неудачу, и герои вынуждены спасаться бегством. Они обнаруживают, что планета подверглась блокаде и вторжению, и решают помочь местному правителю, королеве Падме Амидале, избежать захвата. Вместе они отправляются на столицу Галактической Республики, чтобы попросить помощи.</p>
+    <p class="Text">Загрузка описания...</p>
     <div id="video-box"></div>
   </div>
-</main><script type="text/javascript">
-const videoPlayers = {
-  1:"https://api.variyt.ws/embed/movie/204",
-  2: "https://vkvideo.ru/video_ext.php?oid=-233305175&id=456240575&hash=6d777ad756596ed5&hd=3",
-  3: "",
-  trailer: "https://vkvideo.ru/video_ext.php?oid=-40191159&id=456263044&hash=f9da1b9607bf628b&hd=3"
-};
-</script>
+</main>
+<script src="../JavaScript/data.js"></script>
 <script src="../JavaScript/filmlist.js"></script>
 </body>
 </html>
