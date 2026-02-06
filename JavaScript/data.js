@@ -62,6 +62,86 @@ const moviesDatabase = [
          trailer: ""
        },
        backgroundImage: "https://static.okko.tv/images/v4/ca1cb4b4-724b-4ee8-b5fb-ec63c8c4dde3?scale=1&quality=80"
-     }
+     },
+     {
+        id: 5,
+        title: "Звездные войны. Эпизод 5",
+        type: "фильм",
+        genre: "фантастика",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzY_6PNT0-IGeZAmj6t8Ppxl-XPjVUPhAO9g&s",
+        link: "filmlist.html?id=5",
+        description: "Действие фильма разворачивается во время Галактической гражданской войны. Повстанцы, скрывающиеся на ледяной планете, подвергаются атаке со стороны своих врагов. Герои вынуждены спасаться бегством. Один из них отправляется на поиски великого учителя, чтобы обучиться искусству, которое поможет ему в борьбе. В это время другой герой оказывается в плену у антагониста, который преследует свои зловещие цели.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/208",
+          2: "https://vkvideo.ru/video_ext.php?oid=-220018529&id=456239549&hash=41f231047e5e03df&hd=3",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://avatars.mds.yandex.net/get-ott/1534341/2a0000016fb26a17f68021587d8d0311cc09/672x378"
+      },
+      {
+        id: 6,
+        title: "Звездные войны. Эпизод 6",
+        type: "фильм",
+        genre: "фантастика",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwMcTiuDR8NxoZp762rZiDiqRLKaOuy4ZxEA&s",
+        link: "filmlist.html?id=6",
+        description: "Фильм начинается с того, что Люк Скайуокер и его друзья предпринимают смелую операцию по спасению Хана Соло из лап преступного лорда Джаббы Хатта. Они проникают в его дворец на Татуине, где их ждет множество опасностей и хитрых ловушек. В итоге, благодаря быстроте ума и боевым навыкам, герои успешно освобождают Хана и уничтожают Джаббу, после чего отправляются на встречу с Альянсом повстанцев, готовящимся к решающей битве.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/209",
+          2: "https://vkvideo.ru/video_ext.php?oid=-212730940&id=456239236&hash=e1080288040342cb&hd=3",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/923f2ff9-d2e0-4286-893b-891eb79f8bd3?scale=1&quality=80"
+      },
+      {
+        id: 7,
+        title: "Звездные войны. Эпизод 7",
+        type: "фильм",
+        genre: "фантастика",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7LFJcqvaiQXJ1qlRRjP0N1TOc4nbRKsRD8w&s",
+        link: "filmlist.html?id=7",
+        description: "Действие происходит спустя тридцать лет после падения Империи. Новая угроза в виде Первого Ордена, возглавляемого таинственным лидером, угрожает галактике. Поиски последнего джедая заставляют Лея Органу отправить лучшего пилота По Дэмерона на миссию. По находит важную информацию, но попадает в плен к Кайло Рену. Рен — мощный темный воин, стремящийся уничтожить Сопротивление.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/148",
+          2: "https://vkvideo.ru/video_ext.php?oid=-186333195&id=456239452&hash=c2a666f943b1b9d1&hd=3",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/71012391-2932-4576-b56a-ea29d8135d8d"
+      },
+      {
+        id: 8,
+        title: "Звездные войны. Эпизод 8",
+        type: "фильм",
+        genre: "фантастика",
+        image: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e9bc098b-43fd-446a-a3dd-9b37b8e2a8ec/220x330",
+        link: "filmlist.html?id=8",
+        description: "События новой главы саги разворачиваются после гибели Хана Соло. В Галактике продолжается ожесточённая война: Первый Орден давит всё сильнее, а Сопротивление пытается удержать надежду на победу. Рей открыла в себе Силу и стремится понять своё предназначение, но ответы могут оказаться опаснее, чем она ожидает. Её путь приводит к Люку Скайуокеру — последнему джедаю, который скрывался от мира и теперь должен решить, готов ли снова вмешаться в ход истории. Тем временем Кайло Рен, окончательно выбравший Тёмную сторону и занявший высокое положение в Ордене, всё глубже погружается в свои амбиции. Лея вместе с По, Финном и BB-8 отправляется на рискованную миссию, способную изменить исход войны.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/202",
+          2: "https://vkvideo.ru/video_ext.php?oid=-194718512&id=456239914&hash=4e060dc2dc53fe52&hd=3",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/01582d02-dd01-4f96-9d54-7d60a36dd1d5?scale=1&quality=80"
+      },
+      {
+        id: 9,
+        title: "Звездные войны. Эпизод 9",
+        type: "фильм",
+        genre: "фантастика",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLqWHKUcQvgIBXaAbeIjIv1NP8P8_3cNi5uA&s",
+        link: "filmlist.html?id=9",
+        description: "Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край Галактики и грандиозный финал фантастической саги.",
+        videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/7705",
+          2: "https://vkvideo.ru/video_ext.php?oid=-230801177&id=456239088&hash=3e6c7a6a77bdf39b&hd=3",
+          3: "",
+          trailer: ""
+        },
+        backgroundImage: "https://static.okko.tv/images/v4/a83a16de-2f0b-49f9-a6b2-cdca5a5673f5?scale=1&quality=80"
+      },
 ];
 window.moviesDatabase = moviesDatabase;
