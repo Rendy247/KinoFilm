@@ -8,7 +8,7 @@ const moviesDatabase = [
       link: "filmlist.html?id=1",
       description: "Фильм начинается с дипломатической миссии, в которой рыцари-джедаи Квай-Гон Джинн и его ученик Оби-Ван Кеноби отправляются на планету, чтобы урегулировать торговый спор. Однако их переговоры с Торговой Федерацией терпят неудачу, и герои вынуждены спасаться бегством. Они обнаруживают, что планета подверглась блокаде и вторжению, и решают помочь местному правителю, королеве Падме Амидале, избежать захвата. Вместе они отправляются на столицу Галактической Республики, чтобы попросить помощи.",
       videoPlayers: {
-          1: "https://api.variyt.ws/embed/movie/204",
+          1: "https://api.variyt.ws/embed/movie/41519",
           2: "https://vkvideo.ru/video_ext.php?oid=-233305175&id=456240575&hash=6d777ad756596ed5&hd=3",
           3: "",
           trailer: "https://vkvideo.ru/video_ext.php?oid=-40191159&id=456263044&hash=f9da1b9607bf628b&hd=3"
@@ -591,6 +591,21 @@ const moviesDatabase = [
         },
         backgroundImage: "https://static.okko.tv/images/v4/b530ee01-a67f-497c-9147-b868a9d408f8"
       },
-
+      {
+              id: 37,
+              title: "Ходячие мертвецы",
+              type: "сериал",
+              genre: "боевик",
+              image: "https://posters.movieposterdb.com/24_06/2010/1520211/l_the-walking-dead-movie-poster_ba917fa0.jpg",
+              link: "filmlist.html?id=36",
+              description: "Сериал рассказывает историю жизни семьи шерифа после того, как «зомби» - эпидемия апокалиптических масштабов захлестнула земной шар. Шериф Рик Граймс путешествует со своей семьей и небольшой группой выживших в поисках безопасного места для жизни. Но постоянный страх смерти каждый день приносит тяжелые потери, заставляя героев почувствовать глубины человеческой жестокости.",
+              videoPlayers: {
+                1: "https://api.variyt.ws/embed/movie/1285",
+                2: "https://gencit.info/low/846892?season=1&episode=1",
+                3: "",
+                trailer: ""
+              },
+              backgroundImage: "https://static.okko.tv/images/v4/1968184a-9286-43fb-98dd-a1fe6fe86116?scale=1&quality=80"
+            },
 ];
 window.moviesDatabase = moviesDatabase;
