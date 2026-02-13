@@ -4,23 +4,23 @@ const moviesDatabase = [
       title: "Звездные войны. Эпизод 1",
       type: "фильм",
       genre: "фантастика",
-      image: "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/167/vk2WkfCyMxrcSymgMheqcyvuRDueHUgU6mYO55bW.webp",
+      image: "https://image.tmdb.org/t/p/original/9DkEtsmLSIvVpmnzRaldXqImyQw.jpg",
       link: "filmlist.html?id=1",
       description: "Фильм начинается с дипломатической миссии, в которой рыцари-джедаи Квай-Гон Джинн и его ученик Оби-Ван Кеноби отправляются на планету, чтобы урегулировать торговый спор. Однако их переговоры с Торговой Федерацией терпят неудачу, и герои вынуждены спасаться бегством. Они обнаруживают, что планета подверглась блокаде и вторжению, и решают помочь местному правителю, королеве Падме Амидале, избежать захвата. Вместе они отправляются на столицу Галактической Республики, чтобы попросить помощи.",
       videoPlayers: {
-          1: "https://api.variyt.ws/embed/movie/41519",
+          1: "https://tv.kinohub.vip/movie/328",
           2: "https://vkvideo.ru/video_ext.php?oid=-233305175&id=456240575&hash=6d777ad756596ed5&hd=3",
-          3: "",
+          3: "https://api.variyt.ws/embed/movie/88250",
           trailer: "https://vkvideo.ru/video_ext.php?oid=-40191159&id=456263044&hash=f9da1b9607bf628b&hd=3"
       },
-      backgroundImage: "https://static.okko.tv/images/v4/d01c6fab-23c0-465d-9554-7295514c080d?scale=1&quality=80"
+      backgroundImage: "https://image.tmdb.org/t/p/original/wDe8LzwuvHYYiuwyNfxdYQq8ti4.jpg"
   },
     {
       id: 2,
       title: "Звездные войны. Эпизод 2",
       type: "фильм",
       genre: "фантастика",
-      image: "https://posters.movieposterdb.com/07_11/2002/121765/l_121765_73bcd067.jpg",
+      image: "https://www.themoviedb.org/t/p/w600_and_h900_face/jGiIdLMD5Y16snttJwUcQSDBXUv.jpg",
       link: "filmlist.html?id=2",
       description: "Действие разворачивается спустя десять лет после событий предыдущего фильма. Республика погружается в хаос, и тысячи планет грозят выйти из её состава. Рыцарь-джедай Оби-Ван Кеноби и его ученик Энакин Скайуокер получают задание защитить сенатора Падме Амидала от покушения. Энакин, теперь взрослый падаван, испытывает противоречивые чувства, включая любовь к Падме, что запрещено кодексом джедаев, усложняя его внутреннюю борьбу и отношения с учителем.",
       videoPlayers: {
@@ -29,30 +29,30 @@ const moviesDatabase = [
         3: "",
         trailer: "https://vkvideo.ru/video_ext.php?oid=-132343249&id=456243444&hash=a993bc780f752ac9&hd=3"
       },
-      backgroundImage: "https://static.okko.tv/images/v4/afcfb359-5e92-49af-bd90-abd6feb63f4e?scale=1&quality=80"
+      backgroundImage: "https://image.tmdb.org/t/p/original/abwxHfymXGAbbH3lo9PDEJEfvtW.jpg"
   },
   {
-    id: 3,
-    title: "Звездные войны. Эпизод 3",
-    type: "фильм",
-    genre: "фантастика",
-    image: "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/169/0Io0heWrC5MZrkQMH3q8K0gEUTeLiL7DiLDuCzUJ.webp",
-    link: "filmlist.html?id=3",
-    description: "Фильм начинается с дипломатической миссии, в которой рыцари-джедаи Квай-Гон Джинн и его ученик Оби-Ван Кеноби отправляются на планету, чтобы урегулировать торговый спор. Однако их переговоры с Торговой Федерацией терпят неудачу, и герои вынуждены спасаться бегством. Они обнаруживают, что планета подверглась блокаде и вторжению, и решают помочь местному правителю, королеве Падме Амидале, избежать захвата. Вместе они отправляются на столицу Галактической Республики, чтобы попросить помощи.",
-    videoPlayers: {
-      1: "https://api.variyt.ws/embed/movie/206",
-      2: "https://vkvideo.ru/video_ext.php?oid=-80021931&id=456242272&hash=0eb9d472e4e93da0&hd=3",
-      3: "",
-      trailer: "https://vkvideo.ru/video_ext.php?oid=-56950139&id=456241399&hash=e205baa99dd45fed&hd=3"
-    },
-    backgroundImage: "https://static.okko.tv/images/v4/51852498-fd96-486a-b562-df1ec596dda6?scale=1&quality=80"
-},
+      id: 3,
+      title: "Звездные войны: Эпизод III - Месть ситхов",
+      type: "фильм",
+      genre: "Экшн, Приключения, Фэнтези",
+      image: "https://image.tmdb.org/t/p/original/a1f0xvhIfUlzgWlPYL3XS8n5XuL.jpg",
+      link: "filmlist.html?id=3",
+      description: "С начала Войн клонов прошло почти три года. Республика с помощью джедаев сражается с графом Дуку и сепаратистами. С ростом новой угрозы Совет джедаев посылает Оби-Вана Кеноби и Энакина Скайуокера на помощь захваченному канцлеру. Энакин чувствует, что готов стать мастером-джедаем. Оби-Ван охотится на генерала сепаратистов, Гривус. Когда у Энакина в будущем появятся видения боли и страданий Падме, таким образом, он обращается к мастеру Йоде за советом. Когда Дарт Сидиус выполняет Приказ 66, он уничтожает больше всего, что построили джедаи. Испытайте рождение Дарта Вейдера. Почувствуйте предательство, которое приводит к ненависти между двумя братьями. И засвидетельствуй силу надежды.",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/206",
+          2: "https://vkvideo.ru/video_ext.php?oid=-194718512&id=456239900",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-75491151&id=456239034"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/jniabJVBSW3EqLlyhjxWCZjVkiE.jpg"
+      },
 {
        id: 4,
        title: "Звездные войны. Эпизод 4",
        type: "фильм",
        genre: "фантастика",
-       image: "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/159/M2q537D0Tnzf1xWIleSuIB3Ovmj9e5y3Dzvp6E9C.webp",
+       image: "https://www.themoviedb.org/t/p/w600_and_h900_face/wPlD3Z5x0O92rsB44XKHKQijROM.jpg",
        link: "filmlist.html?id=4",
        description: "В далекой-далекой галактике, принцесса Лея, лидер повстанцев, захватывает чертежи космической станции, чтобы спасти галактику от зловещей Империи. Её корабль подвергается нападению, и она успевает спрятать данные в дроида R2-D2 вместе с просьбой о помощи. Дроид, вместе с другим дроидом - C-3PO, попадает на пустынную планету, где их находит юный фермер Люк Скайуокер. Люк вскоре узнает о своём предназначении и решает помочь в борьбе с Империей.",
        videoPlayers: {
@@ -68,11 +68,11 @@ const moviesDatabase = [
         title: "Звездные войны. Эпизод 5",
         type: "фильм",
         genre: "фантастика",
-        image: "https://xl.movieposterdb.com/05_06/1980/0080684/xl_22470_0080684_b87199b8.jpg",
+        image: "https://www.themoviedb.org/t/p/w600_and_h900_face/4P59R7RIuMX2wiT2AGsUBrKoQBG.jpg",
         link: "filmlist.html?id=5",
         description: "Действие фильма разворачивается во время Галактической гражданской войны. Повстанцы, скрывающиеся на ледяной планете, подвергаются атаке со стороны своих врагов. Герои вынуждены спасаться бегством. Один из них отправляется на поиски великого учителя, чтобы обучиться искусству, которое поможет ему в борьбе. В это время другой герой оказывается в плену у антагониста, который преследует свои зловещие цели.",
         videoPlayers: {
-          1: "https://api.variyt.ws/embed/movie/208",
+          1: "https://4c2-f4e-505gv.stream-balancer-allo-1.live/0/qvc5CE5YJqAyrpnv6YDeWi35kVGE2_QORU1Ca5lmvsAw5yqtxM21o90hC3Ed3wxs3PJfeynGIaQIGhM888jK6iUNoofdayFcaD7fOoFhSOARaBhyXAqWmueCfYK0LsyEsWZfTMK06kHOBy-GpDeKteZNoBxVbzggs_9C7ykcgzpNVPFHwFUlsgCVRb8s5qGbO2lNAzIGw8SQMBtH83EnX7D8oZfeU2z6Z1XJ0r6L8XVQY3B75CUZqQxl-bAdTpgzv05UIYLF3IazU60dV1F80qAKYADXeZxWLp_uuQuxw7LauKndF-LpzCisMdtHKoJBc2wUJmeh0IwL1cHGzYSOs9Um4GvAwPL2V09SA_E0TEuDcyXUwP--l9j3yqG4xC-N1GzQYLDcivNEQkeaIfslG4V-Adb-6FPTGhaCJAVw-rk1DUAbLX4w_7CSeOSjrF5wiMcMS-MGrBd52fDbjqJqi0P5KX5ICx3CnfPf2O9Kl-aag4R1yV7n9dOenwh6rV4y_zYDKVlPRYowOSpKorj95txSsIJPcDsBF-2zLVa5__36CcYnBoxaTgzdlZGz6bqzTliaLx4ydSQmzA7-SzTBT3ipqQTOWtN44MwtAHGMNivLYgl6LI0LkqpwOgutRYzhW2485YoD1GkBMXHx_2trTC3YieDDAfBvJAv9RHLjT7rWjr8yzt-9s1cQVobamZHDD7gW5mO5wYPuypA4yMWZBgIMec1jNpao3lQkkPRZb8gSUi7FIEWKag71QdMUOPctWmMkiiLmduNzcL4PTbl72BFuye-pxRDoxeGW3x52sIgG5kOIyTOxFP6laAC0eXb54aflpsOYJ-mLBxPD-Ao3qoZmYCJNRpGoZuiMKoAnyzqSMUkDechrGicaRmgBJSnfnMENznoQUuH5s_EjJpiKep25_u4abpnbkeuY28UnVvgKHMQbdk3QMktmu491-AyjuTv9Ufg4f-TV8TGG0Tj5pKFSe-TWzScOx3ywW-avaZk8uPxZvtgFAxYrboguldDcqqWEBsMVf90AivGs6bp-UvTI2kQRutK80Y_QDArLkr_YECsdqTv9Xe85ogDe7w9t-qzlNcKvpjUBivMTVECcpXN5oW1cJuIUWilKmCsOVzQX_i_ycGSY3icSFGzZFgWs1kBCy3RXZz1CjZ4RwEDAjcVXv7RMgNKupEZ_1j6i6gWkj6OeH2UPudYvIcrXc1unu6GkFvjTMq2ThuZM7CvBUn5AsO6W6qSLPkgx5u3CB92gKpAhQsF6vzbq2M1S09RFn7JL3udh-a0JaMZqGFC3b06s3v9-HMenzLKgK1bpVNoNEvxbn3Obj3RhuiJqV0L6xjEXRccr-ShAksNS1fCldvw6lww3HrkkkBj7cUDx0hM6KhvgaeWTJi-dLnx1YLIg0WQMBw3maisEv8-8kndL76yrYVfWBOhrIFfoQi4YZSw8c6ZYJHc0OejjVB8xL7O3CkT6JCGU7s00-COdxM6LyFeeJ4YMDktIq0NBUXtQBdNvekmu2ud0Q7-o0Aow7NRbuSIGQN02nrEfpnerDZuACHun5kde9oPVqvikYQ/master.m3u8",
           2: "https://vkvideo.ru/video_ext.php?oid=-220018529&id=456239549&hash=41f231047e5e03df&hd=3",
           3: "",
           trailer: ""
@@ -145,7 +145,7 @@ const moviesDatabase = [
       },
       {
         id: 10,
-        title: "Мондалорец",
+        title: "Мандалорец",
         type: "сериал",
         genre: "фантастика",
         image: "https://posters.movieposterdb.com/23_01/2019/8111088/l_the-mandalorian-movie-poster_7f3ed940.jpg",
@@ -484,7 +484,7 @@ const moviesDatabase = [
         title: "Крёстный отец",
         type: "фильм",
         genre: "драма",
-        image: "https://posters.movieposterdb.com/11_09/1972/68646/l_68646_4af1f70e.jpg",
+        image: "https://www.themoviedb.org/t/p/w600_and_h900_face/hoowzozsn0XQGtgH8nyivAMZfPN.jpg",
         link: "filmlist.html?id=31",
         description: "Сюжет фильма разворачивается вокруг влиятельной итальянско-американской мафиозной семьи, возглавляемой доном Вито Корлеоне. Действие начинается на свадьбе его дочери Конни, где дон принимает гостей и помогает с их просьбами. Майкл, младший сын Вито, который отдалился от семейного бизнеса, возвращается на праздник с девушкой Кей. Вскоре дон сталкивается с предложением наркоторговца Солоццо, который хочет использовать его связи для распространения наркотиков. Вито отказывается, что приводит к конфликту и покушению на его жизнь.",
         videoPlayers: {
@@ -607,5 +607,133 @@ const moviesDatabase = [
               },
               backgroundImage: "https://static.okko.tv/images/v4/1968184a-9286-43fb-98dd-a1fe6fe86116?scale=1&quality=80"
             },
+    {
+          id: 38,
+      title: "Звездные войны: Войны клонов",
+      type: "сериал",
+      genre: "Анимация, боевик, приключения",
+      image: "https://image.tmdb.org/t/p/original/o9XEd15zRzef9SlOuJYPdS5HCdK.jpg",
+      link: "filmlist.html?id=38",
+      description: "Хроники событий, которые произошли между <Звездными войнами: Эпизод II - Атака клонов> (2002) и <Звездными войнами: Эпизод III - Месть ситхов> (2005), это шоу следует за военными днями Энакина Скайуокера (Мэтт Лантер), Оби-Вана Кеноби (Джеймс Арнольд Тейлор) и Йоды (Том Кейн). Это шоу также выводит на передний план канона <Звездных войн> новых персонажей, в том числе ученика Энакина Асоку Тано (Эшли Экштейн) и капитана Рекса (Ди Брэдли Б измельчитель",
+      videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/11998",
+          2: "https://vkvideo.ru/video_ext.php?oid=-192371408&id=456241623",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-38629337&id=456243592"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg"
+    },
+    {
+      id: 39,
+      title: "Ходячие мертвецы",
+      type: "сериал",
+      genre: "Драма, ужасы, триллер",
+      image: "https://image.tmdb.org/t/p/original/3metsxLVhlJU0mNj5gVfKIih0EF.jpg",
+      link: "filmlist.html?id=39",
+      description: "Заместитель шерифа Рик Граймс получает пулю и впадает в кому. Проснувшись, он попадает в зомби-апокалипсис. Не зная, что делать, он отправляется на поиски своей семьи, после чего присоединяется к группе, чтобы стать лидером. Он берет на себя ответственность и пытается помочь этой группе людей выжить, найти место для жизни и достать им еду. Это шоу посвящено выживанию, рискам и тому, что вам придется сделать, чтобы выжить.",
+      videoPlayers: {
+          1: "https://api.variyt.ws/embed/movie/1285",
+          2: "https://vkvideo.ru/video_ext.php?oid=-225671378&id=456245355",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-75376312&id=456239766"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/rAOjnEFTuNysY7bot8zonhImGMh.jpg"
+      },
+      {
+      id: 40,
+      title: "Джон Уик",
+      type: "фильм",
+      genre: "Боевик, Криминал, Триллер",
+      image: "https://image.tmdb.org/t/p/original/o29otcx30U3EkqNVGC2feJVz5yr.jpg",
+      link: "filmlist.html?id=40",
+      description: "Поскольку безвременная смерть его любимой жены все еще горька во рту, Джон Уик, бывший убийца-эксперт, получает от нее последний подарок - драгоценный подарок на память, чтобы помочь Джону найти новый смысл жизни теперь, когда ее нет. Но когда высокомерный русский мафиозный князь Иосиф Тарасов и его люди нанесут Уику довольно нежелательный визит, чтобы лишить его ценного Мустанга 1969 года и подарка его жены, легендарный наемный убийца будет вынужден раскопать его метикуло ослепленный местью, Джон немедленно развяжет тщательно спланированный водоворот разрушения против искушенного вора Вигго Тарасова и его семьи, которые полностью осознают его смертоносные способности. Теперь только кровь может утолить жажду возмездия бугимена.",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/1426",
+          2: "https://vkvideo.ru/video_ext.php?oid=-229268762&id=456239059",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=730616972&id=456240983"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/7I6VUdPj6tQECNHdviJkUHD2u89.jpg"
+      },
+      {
+      id: 41,
+      title: "Клан Сопрано",
+      type: "сериал",
+      genre: "Криминал, драма",
+      image: "https://image.tmdb.org/t/p/original/ilcNSuJriOY2TyaNmaeGAFv8zSo.jpg",
+      link: "filmlist.html?id=41",
+      description: "Инновационный взгляд на жизнь вымышленного мафиози Капо Тони Сопрано, этот сериал представлен во многом от первого лица, но дополнительная перспектива передается интимными беседами Тони со своим психотерапевтом. Мы видим Тони на работе, дома и на терапии. Моменты черной комедии перемежают эту агрессивную взрослую драму со взрослым языком и крайним насилием.",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/2625",
+          2: "https://vkvideo.ru/video_ext.php?oid=-222354903&id=456239027",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-183906442&id=456239776"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg"
+      },
+      {
+      id: 42,
+      title: "Аватар",
+      type: "фильм",
+      genre: "Экшн, Приключения, Фэнтези",
+      image: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/300x450",
+      link: "filmlist.html?id=42",
+      description: "Когда его брат погибает в ограблении, парализованный морской пехотинец Джейк Салли решает занять его место в миссии в далеком мире Пандоры. Там он узнает о намерениях жадного корпоративного лидера Паркера Селфриджа изгнать местного гуманоида <На'ви>, чтобы добыть драгоценный материал, разбросанный по их богатому лесу. В обмен на операцию на позвоночнике, которая исправит его ноги, Джейк собирает знания о Ра коренных народов и их Культуру, для сотрудничающей воинской части, возглавляемой полковником Куаричем, одновременно пытаясь проникнуть в народ На'ви с использованием идентичности <аватара>. В то время как Джейк начинает сближаться с родным племенем и быстро влюбляется в прекрасного пришельца Нейтири, беспокойный полковник продвигается вперед со своим ...",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/647",
+          2: "https://vkvideo.ru/video_ext.php?oid=-202376773&id=456239288",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-183906442&id=456239766"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg"
+      },
+      {
+      id: 43,
+      title: "Аватар: Путь воды",
+      type: "фильм",
+      genre: "Анимация, боевик, приключения",
+      image: "https://kinopoisk-ru.clstorage.net/z30t1O383/e1559dlSV/wn-2gl4sV8RBxSlw1cyLzvYT_6xv5vFbxAi_VS5JsruH65wf8CvCNLtHwQcCIDZOe982Yj_f15IW3H0vls4k9JsS455TLS71MJwBfLyF_oeqeteNNu_ZXu0UyjlrINu7RzNUtkzzSvgDzlj6HyEyFxaiQ2M-rqfLXrFoNl9yacF6d4LK3mA6YJ19eGwp5ItWZsrzDMMbjQdgSQNthnWyT4_HXP6s5_4cN36Yqv_1q8tyXsNDbkZjmyNJ6ErD1ylt6gc2lnIAMhSxPfAYUZgP-v5uj9g7_50D3MkHcYL1msf3H_TiWDP-6OPGWPJ_eb83YqJXu9bKT4PDPYzy-9PdIS6TJh7SoIawzWXMnHUAo2rSShfISzNdV2QxI9nWlVLDi_8UPhCXMtA3Qswqyx1_D5ZOS5_GllOfq92MRuuzcQFKs9I67iS2qLlxPFDhUO_Odmb7AKevUcucSUdx1mnGvxsvEFbQh8rwY_44xoNRJ8uONh8Dlpqzx_e9MMYr0-2dcpfyQhoEEkzF2TwYGXR3foKuB8Sz_yXj1IFr9c692lOX95A-2FN6ADcKlB5X0StPngJLgyqexyvrpRTqQzNxveKP9nqSIA5YTenQ1JH4825eOl_Mz1_d8xxJ7-0urcbLj_cwEqTb4pCTcmyeKyXPJ3Ie77eyArsXT7EMKqurqeXCz74Ownz64CUVJFQdcB_SZvZT0GObxVMUlZfVtsG2Tz_byG5U3_JUg4ZgUudlX4e24n_jFrqzm7MFtMJ3u839hrviin5s2ujtlXQUmeS_FvbWg1A_l5UbXH0_OTJlbmebq0DSEDvmnOMetGZ_TT8TLgqbxzYWLw_TDaiuY7_FDfoTejJCVCao2TGkdBXo98rqmmegZ5v9H4hNJ9XarYbjl1NsghifqqRD1qBGy8kLt16OW4t6dmcn40lAep-Tua2u_xJ6AgCKFMXpxGgRbFMSJlJDCKernds08YM5ri0CV4tb4PIch0ZUY_Ik3tvJQydaCr_zVprrUyNhpCavnzEZXr-GSu74PiAtSfAcfXTXWi76b_Tne2nn6A3bRQ61nm97k0gq1Dcu9DeGQKrvNQuTrloT8-YqOzf_qSzGH1MhMX6jJn7-JLJQOWkkWJUYp8b6mt-Md7utLzj5r-WCdYLDa1OwvhivQuyr9uxe32l3m_Iao1NSXg9Pz7kIbpuj4aUKGxJyFlRyzK0F-ICRdId26i5zJFsT3WfY_dMhnl1GMwP7XL7cw6Ysz17IgksxNw-umnfzWoaPZ09pmErvF9013kcCGvJAEuTdAbBgJcyXGlZGL6RzBxkfbNHPXSotOk-TV3Rq8LeWjBcavP4XKY9n9prTj0oCx48nVYBW50e5Qc5nVtpCAM6YXZ1UeO0En24iri80V_sNX4gFK7nSwdYvoyuQasxnnmi7QtAa7-1HPxrGQ5e2ilNX60mkdqtHCX1av6KCkriuHLHJYIjZVO8Sfn7foNPfrcPIVSf9mt3Wd78XjAp4H2ooq_J0IicdD-eqYv_Ptp67u_8xlCYfLyVtTu-Gbkp0nnQljUQUeZCrCvrKZ4Rnk_F_HMVvVR5JBtMf05yGyJvmmOuSmAqL5Q9v7pInQ67yJ5v7yRjKY9fBuZKTvupm6NowXemo9DVsb8bqtttAK1-V84RJRyWGGYpbv2vcthCnqqy_DnAOd9FzD1rmX7tKuhcfb-koshOfxTWu45LWFiDCSMHhBGAd3JNauqrv2FeHRQOIhd_NwinSp5cXDKYYH6rok-YUmo_Rt4MeRuOD9r4Lo_-5OKobMwmtlpMOwjrYKmz58XAE0cSf6vKW87yTr3H7FNEPcZbtvmen8xSa_IdWPONm6Hpf4S9Pms6_43IuB08TXbAiHzfhIS4zlpY-vP403cl8ZGH0A36uYs-8O_dVB1TNyx2ONZbjN-dc8oAj3ugvTszOU51nt646t9diGrsPq0UIWv8jDeH2x6riGqiiQPFxQPA12GuKCmInoNuPQfPsSdtt3lEC9xOnHDpwzzYMr9ro3tdpUwfaAjc7sqojl_fp-CbvH6mhEruiYhpEsnh5FTiY-UCvdqLiw9R_A63fQJljwZrptj8DWzgKQL9q4JPOFA4TKeM37ha_-6IKi9cjvUj2u9vFgZbHvjIKwEa8Pd3U6Llsb55udqMkOyPhi0TNI73KwVb3o_-Q5uQvZtQ_zqSeB223B3Ze4_saNtcPb9UE7ufPTX0mj5YKXnBOaP1R4KjxiKP60sLPrLubcVccCU9J7lleN58DyDocv5Lwn-7Ekpv1U4sGYjc31k4Xu9-lBN6bq4HlGocC5jI8-qDxmWxAVRgP-kYudyDP44GLDAG3waJ9up_vQxBSyO-yoL_C3E6j2fu7NtIrg16ukzPraaT28--J4X57eoZyoP7MUd1gZP3ku7rSwt8gG3sZI3hpry0qWYIT89doVsgjSoAPCsTS-yn3Y2KCb-9qomfLk8HIyi9DWcFu79ZeCjwW9MmZsCABnBdKyk57AOuH_du0ld9FLjkad4N7FJ7Mmyq8A56s7o8loyvS3j9D-i6fR8Pp6LqDQ_XB-odaWg5EvtD5WTjMGfAjGvZSE7yvE1XrbNUTRZapiktjm7jmoCP-VKuKeI6nTder5hZ_xyaCM7srrXRCy-txhU7P6uKCVH7I8els9A3oj27a4vMEJwOlp0SVN8EWZW5Tq4tkmhyzMpSXzvQKD9Gj6-oOKwcqDhvDM03sugtfpfFqe-ZiQky6XN15AGRlfJOaKrYXwLNjKdfEcT-tpt0qP7NXaB4Yz768O_IwKpst_48eDn9bUprH08dN5AoHF3lx8j-a-hLEcky9FfAY0eiXxn6qYzxrV-l79P1b6S4VSmsrE0j6ECd-FIPmzOrvMce7qhbffzKWS6OTAcTaY6ON8Wofljoy-Da48XnE3O1YA86GElOMY4NtlxhVU8FSsYrzHw-U4pTPYgBvOvBux0Ejp5qi54PKyrOjE6W4",
+      link: "filmlist.html?id=43",
+      description: "Джейк Салли живет со своей новообретенной семьей, сформированной на внесолнечной луне Пандоре. Как только знакомая угроза возвращается, чтобы закончить то, что было начато ранее, Джейк должен работать с Нейтири и армией расы На'ви, чтобы защитить свой дом.",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/43722",
+          2: "https://vkvideo.ru/video_ext.php?oid=-230513320&id=456239149",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-113812902&id=456243241"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/cd8YDn7M0lfaHhZdU6MvCDxPalP.jpg"
+      },
+      {
+      id: 44,
+      title: "Побег из Шоушенка",
+      type: "фильм",
+      genre: "Драма",
+      image: "https://image.tmdb.org/t/p/original/yvmKPlTIi0xdcFQIFcQKQJcI63W.jpg",
+      link: "filmlist.html?id=44",
+      description: "Хроники опыта бывшего успешного банкира в качестве заключенного в мрачной тюрьме Шоушенка после того, как он был признан виновным в преступлении, которого он не совершал. Фильм изображает уникальный способ человека справиться со своей новой, мучительной жизнью; по пути он подружился с несколькими другими заключенными, в первую очередь с мудрым долгосрочным заключенным по имени Ред.",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/162",
+          2: "https://vkvideo.ru/video_ext.php?oid=-220018529&id=456243258",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=351139036&id=171789968"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg"
+      },
+      {
+      id: 45,
+      title: "Тёмный рыцарь",
+      type: "фильм",
+      genre: "Действие, Криминал, Драма",
+      image: "https://image.tmdb.org/t/p/original/aPtN76OjnNKLqCJ2FJBnQOIL031.jpg",
+      link: "filmlist.html?id=45",
+      description: "Спустя год после событий <Бэтмен: Начало> (2005), Бэтмен, лейтенант Джеймс Гордон и новый окружной прокурор Харви Дент успешно начинают собирать преступников, которые преследуют Готэм-сити, пока в Готэме не появляется таинственный и садистский преступный вдохновитель, известный только как <Джокер>, создавая новую волну хаоса. Борьба Бэтмена с Джокером становится глубоко личной, заставляя его <противостоять всему, во что он верит>, и совершенствоваться его технологии, чтобы остановить его. Между Брюсом Уэйном, Дентом и Рэйчел Доус развивается любовный треугольник.",
+      videoPlayers: {
+          1: "http://api.variyt.ws/embed/movie/3066",
+          2: "https://vkvideo.ru/video_ext.php?oid=-143260624&id=456239857",
+          3: "h{}",
+          trailer: "https://vkvideo.ru/video_ext.php?oid=-75938927&id=456239978"
+      },
+      backgroundImage: "https://image.tmdb.org/t/p/original/dqK9Hag1054tghRQSqLSfrkvQnA.jpg"
+      },
 ];
 window.moviesDatabase = moviesDatabase;
